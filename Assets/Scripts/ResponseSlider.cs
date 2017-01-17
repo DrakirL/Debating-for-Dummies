@@ -32,11 +32,16 @@ public class ResponseSlider : Animator
                 Buttons[i].SetActive(true);
             }
 
-            /* Test if this button needs a reseach point to be open
-            else if (PlayerPrefs.GetInt("SubjectOrOpposition") == politician.currentDialogue.Responses[i].accessLevel)
+            // Test if this button needs a reseach point to be open
+            else if (PlayerPrefs.GetInt("SubjectOrOpposition") == 0 && politician.currentDialogue.Responses[i].accessLevel == Response.Accessability.ResearchSubject)
             {
                 Buttons[i].SetActive(true);
-            } */
+            }
+
+            else if (PlayerPrefs.GetInt("SubjectOrOpposition") == 1 && politician.currentDialogue.Responses[i].accessLevel == Response.Accessability.ResearchOpposition)
+            {
+                Buttons[i].SetActive(true);
+            }
         }
     }
 

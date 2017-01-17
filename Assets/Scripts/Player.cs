@@ -7,12 +7,6 @@ public class Player : Animator
 	public int playerrep;
 	public int playerrepchange;
 
-	//happens before the debate
-	public void BeforeDebate()
-	{
-        //Starts the chosen politician
-	}
-
 	//Happens after the debate
 	public void AfterDebate ()
 	{

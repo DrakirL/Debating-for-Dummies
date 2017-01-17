@@ -956,7 +956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba386c16d8543b548912f3dafc7f315a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letterPause: 0.02
+  letterPause: 0.0002
   text: {fileID: 875956693}
 --- !u!1 &1163216239
 GameObject:
@@ -1251,7 +1251,22 @@ MonoBehaviour:
         sanChange: 0
         repChange: 0
       sanityLimit: 0
-    Responses: []
+    Responses:
+    - name: This option is always available.
+      accessLevel: 0
+      Path:
+        Phrases: []
+        Responses: []
+    - name: This option requires subject research.
+      accessLevel: 1
+      Path:
+        Phrases: []
+        Responses: []
+    - name: This option requires opposition research.
+      accessLevel: 2
+      Path:
+        Phrases: []
+        Responses: []
   Breakdown:
     Phrases:
     - smartQuote:
