@@ -53,11 +53,15 @@ public class BasePolitician : Animator
     protected Animator chairman;
     protected GameObject TextboxGO;
     protected Textbox tBox;
+
     protected GameObject CameraGO;
     protected CustomCamera camera;
     protected GameObject SliderGO;
     protected ResponseSlider slider;
     protected GameObject NextButton;
+
+    protected GameObject StatbarGO;
+    protected StatBar playerReputationBar;
 
     public string name;
     public int startSan;
@@ -85,6 +89,9 @@ public class BasePolitician : Animator
         tBox = TextboxGO.GetComponent<Textbox>();
         camera = CameraGO.GetComponent<CustomCamera>();
         slider = SliderGO.GetComponent<ResponseSlider>();
+
+        StatbarGO = GameObject.Find("Player reputation");
+        playerReputationBar = StatbarGO.GetComponent<StatBar>(); 
 
         sanity = startSan;
         reputation = startRep;
@@ -294,6 +301,9 @@ public class BasePolitician : Animator
             {
                 //enable player breakdown
             }
+
+            //Updates all statbars
+            playerReputationBar.SetValue(player.playerrep);
         }
     }
     public virtual void insultChange(Quote quote)
