@@ -7,13 +7,14 @@ public class StatBar : MonoBehaviour
     private Image Bar;
 
 	// Use this for initialization
-	void Start ()
+	void Awake ()
     {
 	    Bar = GetComponent<Image>();
 	}
 
     public void SetValue(int value)
     {
-        Bar.fillAmount = ((float)value / 100.0f);
+        float percentage = ((float)value / 100.0f);
+        Bar.fillAmount = percentage;
     }
 }

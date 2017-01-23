@@ -1415,17 +1415,80 @@ MonoBehaviour:
         repChange: 0
       sanityLimit: 0
     Responses:
-    - name: This option is always available.
+    - name: Free option.
       accessLevel: 0
       Path:
-        Phrases: []
+        Phrases:
+        - smartQuote:
+            quote: This is a boring quote. But I sound smart whilst saying it
+            animation: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: 69
+            yourRepChange: 69
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: Why would you ever say this?
+            animation: 0
+            actor: 1
+            type: 1
+            effect: 0
+            yourSanChange: -10
+            yourRepChange: -10
+            sanChange: 10
+            repChange: 10
+          sanityLimit: 60
         Responses: []
-    - name: This option requires subject research.
+    - name: Present facts.
       accessLevel: 1
       Path:
-        Phrases: []
+        Phrases:
+        - smartQuote:
+            quote: FACTS, BITCH!
+            animation: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 5
+            yourRepChange: 5
+            sanChange: -5
+            repChange: -5
+          dumbQuote:
+            quote: 
+            animation: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: Wut?
+            animation: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: '*GASP* MY ONLY WEAKNESS!!'
+            animation: 0
+            actor: 1
+            type: 0
+            effect: 1
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 75
         Responses: []
-    - name: This option requires opposition research.
+    - name: Reveal his past.
       accessLevel: 2
       Path:
         Phrases: []

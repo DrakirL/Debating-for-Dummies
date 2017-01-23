@@ -315,7 +315,7 @@ public class BasePolitician : Animator
             playerReputationBar.SetValue(player.playerrep);
             playerSanityBar.SetValue(player.playersan);
             opposingReputationBar.SetValue(reputation);
-            opposingSanityBar.SetValue(sanity); 
+            opposingSanityBar.SetValue(sanity);
         }
     }
     public virtual void insultChange(Quote quote)
