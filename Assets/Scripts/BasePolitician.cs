@@ -62,6 +62,9 @@ public class BasePolitician : Animator
 
     protected GameObject StatbarGO;
     protected StatBar playerReputationBar;
+    protected StatBar playerSanityBar;
+    protected StatBar opposingReputationBar;
+    protected StatBar opposingSanityBar;
 
     public string name;
     public int startSan;
@@ -91,7 +94,13 @@ public class BasePolitician : Animator
         slider = SliderGO.GetComponent<ResponseSlider>();
 
         StatbarGO = GameObject.Find("Player reputation");
-        playerReputationBar = StatbarGO.GetComponent<StatBar>(); 
+        playerReputationBar = StatbarGO.GetComponent<StatBar>();
+        StatbarGO = GameObject.Find("Player sanity");
+        playerSanityBar = StatbarGO.GetComponent<StatBar>();
+        StatbarGO = GameObject.Find("Opposing reputation");
+        opposingReputationBar = StatbarGO.GetComponent<StatBar>();
+        StatbarGO = GameObject.Find("Opposing sanity");
+        opposingSanityBar = StatbarGO.GetComponent<StatBar>();
 
         sanity = startSan;
         reputation = startRep;
@@ -304,6 +313,9 @@ public class BasePolitician : Animator
 
             //Updates all statbars
             playerReputationBar.SetValue(player.playerrep);
+            playerSanityBar.SetValue(player.playersan);
+            opposingReputationBar.SetValue(reputation);
+            opposingSanityBar.SetValue(sanity); 
         }
     }
     public virtual void insultChange(Quote quote)
