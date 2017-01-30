@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Quote
@@ -67,13 +68,12 @@ public class BasePolitician : Animator
     protected StatBar opposingSanityBar;
 
     public string name;
-    public int startSan;
-    public int startRep;
     public Dialogue OpeningStatements;
     public Dialogue Breakdown;
+    public Dialogue PlayerBreakdown;
 
-    protected int sanity;
-    protected int reputation;
+    public int sanity;
+    public int reputation;
 
     public Dialogue currentDialogue;
     protected int currentPhrase;
@@ -102,13 +102,16 @@ public class BasePolitician : Animator
         StatbarGO = GameObject.Find("Opposing sanity");
         opposingSanityBar = StatbarGO.GetComponent<StatBar>();
 
-        sanity = startSan;
-        reputation = startRep;
-
         SetupAnimator();
 
+        SetStartStats();
         ChooseDialogue(OpeningStatements);
         ContinueDialogue();
+    }
+    public virtual void SetStartStats()
+    {
+        player.BeforeDebate();
+        //fill in rest for decendant
     }
 
     //Sets the first quote of the chosen dialogue as the next one to be played and prepares response buttons
@@ -248,10 +251,8 @@ public class BasePolitician : Animator
     //Ends the debate
     public virtual void EndDebate()
     {
-        Debug.Log("The debate has ended");
-        // player.AfterDebate();
-        // PlayerPrefs.SetInt(name, 0);
-        //Change the scene
+        player.AfterDebate();
+        SceneManager.LoadScene("Menu");
     }
 
     //Alters both parties sanity and reputation depending on different factors
@@ -309,6 +310,7 @@ public class BasePolitician : Animator
             else if (player.playerrep <= 0 || player.playersan <= 0)
             {
                 //enable player breakdown
+                ChooseDialogue(PlayerBreakdown);
             }
 
             //Updates all statbars

@@ -1322,10 +1322,10 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1285642810}
-  - 114: {fileID: 1285642809}
   - 212: {fileID: 1285642811}
+  - 114: {fileID: 1285642809}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: DatBouje
   m_TagString: Politician
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1339,228 +1339,43 @@ MonoBehaviour:
   m_GameObject: {fileID: 1285642808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc91624adc6493945889e3bc9c2b1c4f, type: 3}
+  m_Script: {fileID: 11500000, guid: b1d008c37375a174785c996b30502e6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animations:
   - sprites:
-    - {fileID: 21300000, guid: 9717bc99c98e8b5468b187f0fdb3a052, type: 3}
     - {fileID: 21300000, guid: 04f5aa9418413a6479b44bb49dd21031, type: 3}
+    - {fileID: 21300000, guid: 9717bc99c98e8b5468b187f0fdb3a052, type: 3}
     fps: 10
     shouldLoop: 0
   methods: []
-  name: 
-  startSan: 50
-  startRep: 50
+  name: DatBouje
   OpeningStatements:
     Phrases:
     - smartQuote:
-        quote: "Welcome to tonight's debate between Pep\xE9 Datbouje and Commoner
-          Baggington. I'll be you host for the evening, Woody Chairman."
+        quote: ' Smart lul'
         animation: 0
-        actor: 2
+        actor: 1
         type: 0
         effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
+        yourSanChange: -10
+        yourRepChange: -10
+        sanChange: -10
+        repChange: -10
       dumbQuote:
-        quote: 
+        quote: ' Dumb lul'
         animation: 0
         actor: 0
         type: 0
         effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      sanityLimit: 0
-    - smartQuote:
-        quote: According to recent statistics, about 0.5% of the Emrican population
-          is homeless. What are the two of you each planning to do about that if you
-          were to be elected?
-        animation: 0
-        actor: 2
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      dumbQuote:
-        quote: 
-        animation: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      sanityLimit: 0
-    - smartQuote:
-        quote: Baggington, you may start with your opening statement.
-        animation: 0
-        actor: 2
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      dumbQuote:
-        quote: 
-        animation: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      sanityLimit: 0
-    - smartQuote:
-        quote: Thank you mr. chairman.
-        animation: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 1
-        yourRepChange: 1
-        sanChange: 0
-        repChange: 0
-      dumbQuote:
-        quote: Er, well...
-        animation: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: -1
-        sanChange: 1
-        repChange: 0
-      sanityLimit: 30
-    - smartQuote:
-        quote: We should make sure that there are enough jobs on the market so that
-          the homeless can start making their own money.
-        animation: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: -5
-        repChange: 0
-      dumbQuote:
-        quote: We should do our best to create more jobs so that the homeless can
-          start paying the rent themselves.
-        animation: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: -4
-        sanChange: -5
-        repChange: 0
-      sanityLimit: 55
-    - smartQuote:
-        quote: To be continued...
-        animation: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 4
-        sanChange: 0
-        repChange: 0
-      dumbQuote:
-        quote: To be continued...
-        animation: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      sanityLimit: 0
+        yourSanChange: -8
+        yourRepChange: -9
+        sanChange: -7
+        repChange: -9
+      sanityLimit: 70
     Responses:
-    - name: Free option.
+    - name: Whut?
       accessLevel: 0
-      Path:
-        Phrases:
-        - smartQuote:
-            quote: This is a boring quote. But I sound smart whilst saying it
-            animation: 0
-            actor: 1
-            type: 0
-            effect: 0
-            yourSanChange: 69
-            yourRepChange: 69
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: Why would you ever say this?
-            animation: 0
-            actor: 1
-            type: 1
-            effect: 0
-            yourSanChange: -10
-            yourRepChange: -10
-            sanChange: 10
-            repChange: 10
-          sanityLimit: 60
-        Responses: []
-    - name: Present facts.
-      accessLevel: 1
-      Path:
-        Phrases:
-        - smartQuote:
-            quote: FACTS, BITCH!
-            animation: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 5
-            yourRepChange: 5
-            sanChange: -5
-            repChange: -5
-          dumbQuote:
-            quote: 
-            animation: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: Wut?
-            animation: 0
-            actor: 1
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: '*GASP* MY ONLY WEAKNESS!!'
-            animation: 0
-            actor: 1
-            type: 0
-            effect: 1
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 75
-        Responses: []
-    - name: Reveal his past.
-      accessLevel: 2
       Path:
         Phrases: []
         Responses: []
@@ -1577,18 +1392,7 @@ MonoBehaviour:
         sanChange: 0
         repChange: 0
       dumbQuote:
-        quote: breakdown 1
-        animation: 0
-        actor: 1
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      sanityLimit: 900
-    - smartQuote:
-        quote: 
+        quote: brupp
         animation: 0
         actor: 0
         type: 0
@@ -1597,60 +1401,34 @@ MonoBehaviour:
         yourRepChange: 0
         sanChange: 0
         repChange: 0
-      dumbQuote:
-        quote: breakdown 2
-        animation: 0
-        actor: 1
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      sanityLimit: 900
-    - smartQuote:
-        quote: 
-        animation: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      dumbQuote:
-        quote: breakdown 3
-        animation: 0
-        actor: 1
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      sanityLimit: 900
-    - smartQuote:
-        quote: 
-        animation: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      dumbQuote:
-        quote: breakdown 4
-        animation: 0
-        actor: 1
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      sanityLimit: 900
+      sanityLimit: 100
     Responses: []
+  PlayerBreakdown:
+    Phrases:
+    - smartQuote:
+        quote: 
+        animation: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: mu
+        animation: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 100
+    Responses: []
+  sanity: 0
+  reputation: 0
   currentDialogue:
     Phrases: []
     Responses: []
