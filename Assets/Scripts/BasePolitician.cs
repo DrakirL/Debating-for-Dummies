@@ -252,7 +252,7 @@ public class BasePolitician : Animator
     public virtual void EndDebate()
     {
         player.AfterDebate();
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Research");
     }
 
     //Alters both parties sanity and reputation depending on different factors
