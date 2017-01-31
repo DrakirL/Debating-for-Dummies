@@ -34,7 +34,7 @@ public class PlayerMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void Start()
+    public void Begin()
     {
         PlayerPrefs.SetInt("SubjectOrOpposition", 7);
         SceneManager.LoadScene("Debate");

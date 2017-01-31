@@ -258,7 +258,7 @@ public class BasePolitician : Animator
     //Alters both parties sanity and reputation depending on different factors
     public virtual void ChangeStats(Quote quote)
     {
-        if (currentDialogue != Breakdown)
+        if (currentDialogue != Breakdown && currentDialogue != PlayerBreakdown)
         {
             //Standard simply adds/subtracts the given values.
             if (quote.type == Quote.Categories.Standard)

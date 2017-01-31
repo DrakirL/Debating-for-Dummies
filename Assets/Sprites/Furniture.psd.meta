@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: aae0465242b162444800bc81ab5f6de2
-timeCreated: 1485260804
+timeCreated: 1485862953
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -25,6 +25,8 @@ TextureImporter:
     21300036: Furniture_18
     21300038: Furniture_19
     21300040: Furniture_20
+    21300042: Furniture_21
+    21300044: Furniture_22
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -117,9 +119,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3931
-        y: 4667
+        y: 4716
         width: 199
-        height: 617
+        height: 568
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,6 +343,32 @@ TextureImporter:
         y: 4164
         width: 2190
         height: 588
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture_21
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 4455
+        width: 402
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture_22
+      rect:
+        serializedVersion: 2
+        x: 2891
+        y: 4475
+        width: 401
+        height: 292
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
