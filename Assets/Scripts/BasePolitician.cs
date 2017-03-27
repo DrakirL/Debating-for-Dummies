@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
 [System.Serializable]
@@ -7,6 +7,7 @@ public class Quote
 {
     public string quote;
     public int animation;
+    public int voiceClip;
 
     public enum Actors {Me, Opponent, Chairman}
     public Actors actor;
@@ -51,9 +52,10 @@ public class BasePolitician : Animator
     protected GameObject PlayerGO;
     protected Player player;
     protected GameObject ChairmanGO;
-    protected Animator chairman;
+    protected Chairman chairman;
     protected GameObject TextboxGO;
     protected Textbox tBox;
+    protected AudioSource speaker;
 
     protected GameObject CameraGO;
     protected CustomCamera camera;
@@ -67,7 +69,7 @@ public class BasePolitician : Animator
     protected StatBar opposingReputationBar;
     protected StatBar opposingSanityBar;
 
-    public string name;
+    public List<AudioClip> sounds;
     public Dialogue OpeningStatements;
     public Dialogue Breakdown;
     public Dialogue PlayerBreakdown;
@@ -88,10 +90,11 @@ public class BasePolitician : Animator
         NextButton = GameObject.Find("NextButton");
 
         player = PlayerGO.GetComponent<Player>();
-        chairman = ChairmanGO.GetComponent<Animator>();
+        chairman = ChairmanGO.GetComponent<Chairman>();
         tBox = TextboxGO.GetComponent<Textbox>();
         camera = CameraGO.GetComponent<CustomCamera>();
         slider = SliderGO.GetComponent<ResponseSlider>();
+        speaker = GetComponent<AudioSource>();
 
         StatbarGO = GameObject.Find("Player reputation");
         playerReputationBar = StatbarGO.GetComponent<StatBar>();
@@ -185,7 +188,7 @@ public class BasePolitician : Animator
             camera.Zoom(1, citat.smartQuote);
 
             PlayAnimation(citat.smartQuote.animation, true);
-
+            speaker.PlayOneShot(sounds[citat.smartQuote.voiceClip]);
         }
 
         else
@@ -195,6 +198,7 @@ public class BasePolitician : Animator
             camera.Zoom(1, citat.dumbQuote);
 
             PlayAnimation(citat.dumbQuote.animation, true);
+            speaker.PlayOneShot(sounds[citat.dumbQuote.voiceClip]);
         }
     }
     public virtual void yourQuote(Phrase citat)
@@ -206,6 +210,7 @@ public class BasePolitician : Animator
             camera.Zoom(0, citat.smartQuote);
 
             player.PlayAnimation(citat.smartQuote.animation, true);
+            speaker.PlayOneShot(player.playerSounds[citat.smartQuote.voiceClip]);
         }
 
         else
@@ -215,6 +220,7 @@ public class BasePolitician : Animator
             camera.Zoom(0, citat.dumbQuote);
 
             player.PlayAnimation(citat.dumbQuote.animation, true);
+            speaker.PlayOneShot(player.playerSounds[citat.dumbQuote.voiceClip]);
         }
     }
     public virtual void chairmanQuote(Phrase citat)
@@ -224,6 +230,7 @@ public class BasePolitician : Animator
         camera.Zoom(2, citat.smartQuote);
 
         chairman.PlayAnimation(citat.smartQuote.animation, true);
+        speaker.PlayOneShot(chairman.chairSounds[citat.smartQuote.voiceClip]);
     }
 
     //Prevents the animation from looping and readies "Next"-button.

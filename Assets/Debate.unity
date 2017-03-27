@@ -1462,6 +1462,8 @@ GameObject:
   - 4: {fileID: 1285642810}
   - 212: {fileID: 1285642811}
   - 114: {fileID: 1285642809}
+  - 81: {fileID: 1285642813}
+  - 82: {fileID: 1285642812}
   m_Layer: 0
   m_Name: DatBouje
   m_TagString: Politician
@@ -1482,17 +1484,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animations:
   - sprites:
-    - {fileID: 21300000, guid: 04f5aa9418413a6479b44bb49dd21031, type: 3}
-    - {fileID: 21300000, guid: 9717bc99c98e8b5468b187f0fdb3a052, type: 3}
+    - {fileID: 21300000, guid: ebe131074405fe045b12b58d198dfdd4, type: 3}
+    - {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
+    fps: 10
+    shouldLoop: 0
+  - sprites:
+    - {fileID: 21300000, guid: 5b6c24e94b006dd40812ade0cf2b854f, type: 3}
+    - {fileID: 21300000, guid: 5b6c24e94b006dd40812ade0cf2b854f, type: 3}
+    fps: 10
+    shouldLoop: 0
+  - sprites:
+    - {fileID: 21300000, guid: 9eaaf6d3d8bc8f74c8dae071efc19044, type: 3}
+    - {fileID: 21300000, guid: 4322243bf57409143912dbc61ebad262, type: 3}
     fps: 10
     shouldLoop: 0
   methods: []
-  name: DatBouje
+  sounds:
+  - {fileID: 8300000, guid: 09d62b3e28530eb43aa847526d0c2af0, type: 3}
   OpeningStatements:
     Phrases:
     - smartQuote:
         quote: ' Smart lul'
         animation: 0
+        voiceClip: 0
         actor: 1
         type: 0
         effect: 0
@@ -1501,9 +1515,10 @@ MonoBehaviour:
         sanChange: -10
         repChange: -10
       dumbQuote:
-        quote: ' Dumb lul'
+        quote: blelelelelelelelelellelelelellelelellelelelelelelelelelelelelele.
         animation: 0
-        actor: 0
+        voiceClip: 0
+        actor: 1
         type: 0
         effect: 0
         yourSanChange: -8
@@ -1511,17 +1526,59 @@ MonoBehaviour:
         sanChange: 0
         repChange: 0
       sanityLimit: 70
-    Responses:
-    - name: Whut?
-      accessLevel: 0
-      Path:
-        Phrases: []
-        Responses: []
+    - smartQuote:
+        quote: ' Smart lul'
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: belle belle belle belle
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 100
+    - smartQuote:
+        quote: "Halli hall\xE5!"
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: belle belle belle belle
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 100
+    Responses: []
   Breakdown:
     Phrases:
     - smartQuote:
         quote: 
         animation: 0
+        voiceClip: 0
         actor: 0
         type: 0
         effect: 0
@@ -1532,6 +1589,7 @@ MonoBehaviour:
       dumbQuote:
         quote: brupp
         animation: 0
+        voiceClip: 0
         actor: 0
         type: 0
         effect: 0
@@ -1546,6 +1604,7 @@ MonoBehaviour:
     - smartQuote:
         quote: 
         animation: 0
+        voiceClip: 0
         actor: 0
         type: 0
         effect: 0
@@ -1556,6 +1615,7 @@ MonoBehaviour:
       dumbQuote:
         quote: mu
         animation: 0
+        voiceClip: 0
         actor: 0
         type: 0
         effect: 0
@@ -1577,7 +1637,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1285642808}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 0, z: 0}
+  m_LocalPosition: {x: -2.5, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -1612,10 +1672,91 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
+--- !u!82 &1285642812
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1285642808}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 3.3863754
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!81 &1285642813
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1285642808}
+  m_Enabled: 1
 --- !u!1 &1354180556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1686,8 +1827,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1373938335}
-  - 114: {fileID: 1373938336}
   - 212: {fileID: 1373938337}
+  - 114: {fileID: 1373938336}
   m_Layer: 0
   m_Name: Chairman
   m_TagString: Untagged
@@ -1716,16 +1857,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1373938334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67f5a6990cac86f4bac9f2467a22e333, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a3a42775332a774e9c28739c2988a2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animations:
   - sprites:
-    - {fileID: 21300000, guid: 9717bc99c98e8b5468b187f0fdb3a052, type: 3}
     - {fileID: 21300000, guid: 04f5aa9418413a6479b44bb49dd21031, type: 3}
-    fps: 10
+    - {fileID: 21300000, guid: 9717bc99c98e8b5468b187f0fdb3a052, type: 3}
+    fps: 15
     shouldLoop: 0
   methods: []
+  chairSounds:
+  - {fileID: 8300000, guid: 09d62b3e28530eb43aa847526d0c2af0, type: 3}
 --- !u!212 &1373938337
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2112,6 +2255,8 @@ MonoBehaviour:
   playersan: 50
   playerrep: 50
   playerrepchange: 0
+  playerSounds:
+  - {fileID: 8300000, guid: 09d62b3e28530eb43aa847526d0c2af0, type: 3}
 --- !u!212 &1623833112
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2224,7 +2369,6 @@ GameObject:
   - 20: {fileID: 1761525507}
   - 92: {fileID: 1761525506}
   - 124: {fileID: 1761525505}
-  - 81: {fileID: 1761525504}
   - 114: {fileID: 1761525509}
   m_Layer: 0
   m_Name: Main Camera
@@ -2233,13 +2377,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1761525504
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1761525503}
-  m_Enabled: 1
 --- !u!124 &1761525505
 Behaviour:
   m_ObjectHideFlags: 0
@@ -2316,7 +2453,7 @@ MonoBehaviour:
   shakeDur: 0.5
   positions:
   - {x: 2.5, y: 0, z: -10}
-  - {x: -2.5, y: 0, z: -10}
+  - {x: -3, y: 0, z: -10}
   - {x: 0, y: 0, z: -10}
   politicianSize: 2
   fullscreenSize: 5

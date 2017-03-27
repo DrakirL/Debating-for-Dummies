@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class Player : Animator
 {
 	public int playersan;
 	public int playerrep;
 	public int playerrepchange;
+    public List<AudioClip> playerSounds;
 
     //Happens when the debate starts
     public void BeforeDebate()
