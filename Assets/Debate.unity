@@ -312,8 +312,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -125.7, y: -34}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -115, y: -34}
+  m_SizeDelta: {x: 200, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &131989228
 MonoBehaviour:
@@ -650,8 +650,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -125.9, y: 16}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -115, y: 20}
+  m_SizeDelta: {x: 200, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &442521651
 MonoBehaviour:
@@ -902,8 +902,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 131.7, y: 15}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 115, y: 20}
+  m_SizeDelta: {x: 200, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &526100621
 MonoBehaviour:
@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba386c16d8543b548912f3dafc7f315a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letterPause: 0.0002
+  letterPause: 0.02
   text: {fileID: 875956693}
 --- !u!1 &1163216239
 GameObject:
@@ -1364,8 +1364,8 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 132.1, y: -34}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 115, y: -34}
+  m_SizeDelta: {x: 200, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1163216241
 MonoBehaviour:
@@ -1486,7 +1486,7 @@ MonoBehaviour:
   - sprites:
     - {fileID: 21300000, guid: ebe131074405fe045b12b58d198dfdd4, type: 3}
     - {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
-    fps: 10
+    fps: 15
     shouldLoop: 0
   - sprites:
     - {fileID: 21300000, guid: 5b6c24e94b006dd40812ade0cf2b854f, type: 3}
@@ -1499,58 +1499,12 @@ MonoBehaviour:
     fps: 10
     shouldLoop: 0
   methods: []
-  sounds:
-  - {fileID: 8300000, guid: 09d62b3e28530eb43aa847526d0c2af0, type: 3}
+  sounds: []
   OpeningStatements:
     Phrases:
     - smartQuote:
-        quote: ' Smart lul'
-        animation: 0
-        voiceClip: 0
-        actor: 1
-        type: 0
-        effect: 0
-        yourSanChange: -10
-        yourRepChange: -10
-        sanChange: -10
-        repChange: -10
-      dumbQuote:
-        quote: blelelelelelelelelellelelelellelelellelelelelelelelelelelelelele.
-        animation: 0
-        voiceClip: 0
-        actor: 1
-        type: 0
-        effect: 0
-        yourSanChange: -8
-        yourRepChange: -9
-        sanChange: 0
-        repChange: 0
-      sanityLimit: 70
-    - smartQuote:
-        quote: ' Smart lul'
-        animation: 0
-        voiceClip: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      dumbQuote:
-        quote: belle belle belle belle
-        animation: 0
-        voiceClip: 0
-        actor: 0
-        type: 0
-        effect: 0
-        yourSanChange: 0
-        yourRepChange: 0
-        sanChange: 0
-        repChange: 0
-      sanityLimit: 100
-    - smartQuote:
-        quote: "Halli hall\xE5!"
+        quote: "Welcome to tonight's debate between Pep\xE9 Datbouje and Commoner
+          Baggington. I\u2019ll be your host for the evening: Woody Chairman."
         animation: 0
         voiceClip: 0
         actor: 2
@@ -1561,7 +1515,7 @@ MonoBehaviour:
         sanChange: 0
         repChange: 0
       dumbQuote:
-        quote: belle belle belle belle
+        quote: 
         animation: 0
         voiceClip: 0
         actor: 2
@@ -1571,8 +1525,804 @@ MonoBehaviour:
         yourRepChange: 0
         sanChange: 0
         repChange: 0
-      sanityLimit: 100
-    Responses: []
+      sanityLimit: 0
+    - smartQuote:
+        quote: According to recently measured statistics, about 0.5% of the Emrican
+          population are homeless, the most common reason being unemployment.
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: How would you go about reducing it if you were to be elected?
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Baggington, you may start with your opening statement.
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Thank you Chairman.
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 1
+        sanChange: -1
+        repChange: 0
+      dumbQuote:
+        quote: Eh, well...
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: -1
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 40
+    - smartQuote:
+        quote: We should make it easier to create new jobs for the homeless to take.
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 1
+        sanChange: -2
+        repChange: 0
+      dumbQuote:
+        quote: I think we should do our best to create more jobs so the homeless can
+          afford to pay housing for themselves.
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: -1
+        repChange: 0
+      sanityLimit: 50
+    - smartQuote:
+        quote: For instance, we are currently lacking construction workers. So that
+          would be an easy market to improve on.
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 1
+        sanChange: -1
+        repChange: 0
+      dumbQuote:
+        quote: The jobs could be building more houses, since we've been lacking construction
+          workers as of late.
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: -1
+        repChange: 0
+      sanityLimit: 50
+    - smartQuote:
+        quote: The statistics show that most homeless are just as capable of working
+          hard as the economicly privilaged.
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: -2
+        sanChange: -1
+        repChange: 0
+      dumbQuote:
+        quote: The statistics prove that the majority of homeless people are not entirely
+          useless when it comes to work.
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: -1
+        yourRepChange: -2
+        sanChange: -1
+        repChange: 0
+      sanityLimit: 40
+    - smartQuote:
+        quote: It may be true that they have graduated HIGH SCHOOL, but would you
+          trust a shaggy drug addict to take the responsibility of building new homes
+          for us Emricans?
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: -2
+        yourRepChange: -1
+        sanChange: 2
+        repChange: -2
+      dumbQuote:
+        quote: Like they aren't homeless for a reason. If they can't work, they can't
+          work! Don't give 'em jobs.
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: -5
+        yourRepChange: 0
+        sanChange: 1
+        repChange: -5
+      sanityLimit: 35
+    - smartQuote:
+        quote: "Besides, most of said \u201Chomeless Emricans\u201D aren\u2019t actually
+          from here. They are refugees that are trying to make us give them pity cash,
+          AND IT'S WORKING!"
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: -1
+        yourRepChange: 0
+        sanChange: 1
+        repChange: 0
+      dumbQuote:
+        quote: "Besides, most of said \u201Chomeless Emricans\u201D aren\u2019t actually
+          from here, they were simply dumped on us by the poorer states nearby."
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: -5
+        yourRepChange: 0
+        sanChange: 1
+        repChange: -1
+      sanityLimit: 45
+    - smartQuote:
+        quote: We should improve our border security to make sure that we are actually
+          helping OUR OWN people over everyone else.
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: -1
+        yourRepChange: 0
+        sanChange: 1
+        repChange: 1
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: When I get elected, I will assure that no Emrican will ever have to
+          pay for the mess our neighbours have caused!
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: -5
+        yourRepChange: 0
+        sanChange: 10
+        repChange: 2
+      dumbQuote:
+        quote: "When I get elected, I promise that we proud Emricans won\u2019t have
+          to clean up our neighbours problems for them EVER again!"
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: -5
+        yourRepChange: 0
+        sanChange: 8
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: "...Very well\u2026"
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: The open discussion begins now. You may respond Baggington.
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    Responses:
+    - name: Are you racist?
+      accessLevel: 0
+      Path:
+        Phrases:
+        - smartQuote:
+            quote: You talk like you prefer the people of Emrica over other countries.
+              I hope I'm simply misunderstanding you.
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: -1
+            repChange: -2
+          dumbQuote:
+            quote: Why do you think we Emricans are so much better than our neighbours?
+              Are you a racist or what?
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 35
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        Responses: []
+    - name: Can't the immigrants work?
+      accessLevel: 0
+      Path:
+        Phrases: []
+        Responses: []
+    - name: Blaming neighbours? Typical Datbouje.
+      accessLevel: 2
+      Path:
+        Phrases: []
+        Responses: []
+    - name: Supporting statistics please.
+      accessLevel: 1
+      Path:
+        Phrases: []
+        Responses: []
   Breakdown:
     Phrases:
     - smartQuote:

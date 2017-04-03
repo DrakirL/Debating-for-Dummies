@@ -12,16 +12,17 @@ public class Datbouje : BasePolitician
     {
         base.SetStartStats();
         reputation = player.playerrep;
-        sanity = player.playersan;
 
-        if (reputation > 75)
+        if (reputation > 65)
         {
-            reputation = 75;
+            reputation = 65;
         }
+
+        sanity = player.playersan - player.playerrep;
 
         if (sanity >= 65)
         {
-            sanity -= player.playerrep;
+            sanity = 65;
         }
 
         if (sanity < 35)

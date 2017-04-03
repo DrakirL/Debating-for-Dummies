@@ -161,22 +161,16 @@ public class BasePolitician : Animator
         if (citat.smartQuote.actor == Quote.Actors.Opponent)
         {
             opposingQuote(citat);
-
-            animations[chosenAnimation].shouldLoop = true;
         }
 
         else if (citat.smartQuote.actor == Quote.Actors.Me)
         {
             yourQuote(citat);
-
-            player.animations[chosenAnimation].shouldLoop = true;
         }
 
         else if (citat.smartQuote.actor == Quote.Actors.Chairman)
         {
             chairmanQuote(citat);
-
-            chairman.animations[chosenAnimation].shouldLoop = true;
         }
     }
     public virtual void opposingQuote(Phrase citat)
@@ -187,6 +181,7 @@ public class BasePolitician : Animator
             tBox.Type(citat.smartQuote.quote, this);
             camera.Zoom(1, citat.smartQuote);
 
+            animations[citat.smartQuote.animation].shouldLoop = true;
             PlayAnimation(citat.smartQuote.animation, true);
             speaker.PlayOneShot(sounds[citat.smartQuote.voiceClip]);
         }
@@ -197,6 +192,7 @@ public class BasePolitician : Animator
             tBox.Type(citat.dumbQuote.quote, this);
             camera.Zoom(1, citat.dumbQuote);
 
+            animations[citat.dumbQuote.animation].shouldLoop = true;
             PlayAnimation(citat.dumbQuote.animation, true);
             speaker.PlayOneShot(sounds[citat.dumbQuote.voiceClip]);
         }
@@ -209,6 +205,7 @@ public class BasePolitician : Animator
             tBox.Type(citat.smartQuote.quote, this);
             camera.Zoom(0, citat.smartQuote);
 
+            player.animations[citat.smartQuote.animation].shouldLoop = true;
             player.PlayAnimation(citat.smartQuote.animation, true);
             speaker.PlayOneShot(player.playerSounds[citat.smartQuote.voiceClip]);
         }
@@ -219,6 +216,7 @@ public class BasePolitician : Animator
             tBox.Type(citat.dumbQuote.quote, this);
             camera.Zoom(0, citat.dumbQuote);
 
+            player.animations[citat.dumbQuote.animation].shouldLoop = true;
             player.PlayAnimation(citat.dumbQuote.animation, true);
             speaker.PlayOneShot(player.playerSounds[citat.dumbQuote.voiceClip]);
         }
@@ -229,6 +227,7 @@ public class BasePolitician : Animator
         tBox.Type(citat.smartQuote.quote, this);
         camera.Zoom(2, citat.smartQuote);
 
+        chairman.animations[citat.smartQuote.animation].shouldLoop = true;
         chairman.PlayAnimation(citat.smartQuote.animation, true);
         speaker.PlayOneShot(chairman.chairSounds[citat.smartQuote.voiceClip]);
     }
