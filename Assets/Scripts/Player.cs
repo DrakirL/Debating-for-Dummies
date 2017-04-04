@@ -13,6 +13,8 @@ public class Player : Animator
     {
         if (PlayerPrefs.GetInt("Sanity") > 0 && PlayerPrefs.GetInt("Reputation") > 0)
         {
+            SetupAnimator();
+
             playersan = PlayerPrefs.GetInt("Sanity");
             playerrep = PlayerPrefs.GetInt("Reputation");
 

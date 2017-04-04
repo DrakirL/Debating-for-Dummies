@@ -60,11 +60,6 @@ public class Animator : MonoBehaviour
         return animations[chosenAnimation].sprites.Length - 1;
     }
 
-    void Start()
-    {
-        SetupAnimator();
-    }
-
     public IEnumerator Animate()
     {
         while (true)

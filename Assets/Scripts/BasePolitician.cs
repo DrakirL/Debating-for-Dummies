@@ -364,14 +364,16 @@ public class BasePolitician : Animator
     {
         if (quote.actor == Quote.Actors.Me)
         {
-            player.playerrep += player.playerrep / 10;
+            player.playersan += quote.yourSanChange;
             sanity -= player.playerrep / 10;
+            player.playerrep += player.playerrep / 10;
         }
 
         else
         {
-            reputation += reputation / 10;
+            sanity += quote.sanChange;
             player.playersan -= reputation / 10;
+            reputation += reputation / 10;
         }
     }
 

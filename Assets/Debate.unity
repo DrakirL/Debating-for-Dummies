@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba386c16d8543b548912f3dafc7f315a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letterPause: 0.02
+  letterPause: 0.015
   text: {fileID: 875956693}
 --- !u!1 &1163216239
 GameObject:
@@ -1484,19 +1484,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animations:
   - sprites:
-    - {fileID: 21300000, guid: ebe131074405fe045b12b58d198dfdd4, type: 3}
-    - {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
-    fps: 15
-    shouldLoop: 0
-  - sprites:
-    - {fileID: 21300000, guid: 5b6c24e94b006dd40812ade0cf2b854f, type: 3}
-    - {fileID: 21300000, guid: 5b6c24e94b006dd40812ade0cf2b854f, type: 3}
-    fps: 10
+    - {fileID: 21300002, guid: 787247865cbb99942adf2f90d8476142, type: 3}
+    - {fileID: 21300000, guid: 787247865cbb99942adf2f90d8476142, type: 3}
+    fps: 9
     shouldLoop: 0
   - sprites:
     - {fileID: 21300000, guid: 9eaaf6d3d8bc8f74c8dae071efc19044, type: 3}
     - {fileID: 21300000, guid: 4322243bf57409143912dbc61ebad262, type: 3}
-    fps: 10
+    fps: 9
+    shouldLoop: 0
+  - sprites:
+    - {fileID: 21300000, guid: ebe131074405fe045b12b58d198dfdd4, type: 3}
+    - {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
+    fps: 9
+    shouldLoop: 0
+  - sprites:
+    - {fileID: 21300000, guid: 5b6c24e94b006dd40812ade0cf2b854f, type: 3}
+    - {fileID: 21300000, guid: 5b6c24e94b006dd40812ade0cf2b854f, type: 3}
+    fps: 9
+    shouldLoop: 0
+  - sprites:
+    - {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
+    - {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
+    fps: 1
     shouldLoop: 0
   methods: []
   sounds: []
@@ -1708,8 +1718,8 @@ MonoBehaviour:
         repChange: -2
       dumbQuote:
         quote: Like they aren't homeless for a reason. If they can't work, they can't
-          work! Don't give 'em jobs.
-        animation: 0
+          work! Don't give 'em jobs 'cause you pity them.
+        animation: 1
         voiceClip: 0
         actor: 1
         type: 0
@@ -1772,24 +1782,24 @@ MonoBehaviour:
     - smartQuote:
         quote: When I get elected, I will assure that no Emrican will ever have to
           pay for the mess our neighbours have caused!
-        animation: 0
+        animation: 3
         voiceClip: 0
         actor: 1
-        type: 0
+        type: 2
         effect: 0
-        yourSanChange: -5
+        yourSanChange: 0
         yourRepChange: 0
         sanChange: 10
-        repChange: 2
+        repChange: 0
       dumbQuote:
         quote: "When I get elected, I promise that we proud Emricans won\u2019t have
           to clean up our neighbours problems for them EVER again!"
-        animation: 0
+        animation: 3
         voiceClip: 0
         actor: 1
-        type: 0
+        type: 2
         effect: 0
-        yourSanChange: -5
+        yourSanChange: 0
         yourRepChange: 0
         sanChange: 8
         repChange: 0
@@ -1847,14 +1857,14 @@ MonoBehaviour:
         Phrases:
         - smartQuote:
             quote: You talk like you prefer the people of Emrica over other countries.
-              I hope I'm simply misunderstanding you.
+              Your views aren't discriminatory, are they?.
             animation: 0
             voiceClip: 0
             actor: 0
             type: 0
             effect: 0
             yourSanChange: 0
-            yourRepChange: 0
+            yourRepChange: -1
             sanChange: -1
             repChange: -2
           dumbQuote:
@@ -1866,12 +1876,83 @@ MonoBehaviour:
             type: 0
             effect: 0
             yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
+            yourRepChange: -2
+            sanChange: -2
+            repChange: -2
           sanityLimit: 35
         - smartQuote:
-            quote: 
+            quote: PAH!!! Nonsense!
+            animation: 1
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 1
+            yourSanChange: -2
+            yourRepChange: -1
+            sanChange: -3
+            repChange: -2
+          dumbQuote:
+            quote: Yes... Wait...
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -1
+            yourRepChange: 3
+            sanChange: 0
+            repChange: -9
+          sanityLimit: 27
+        - smartQuote:
+            quote: You think I got this far by hating Oscanians?
+            animation: 1
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: -1
+            yourRepChange: -1
+            sanChange: -1
+            repChange: 0
+          dumbQuote:
+            quote: NO NO NO I MEANT, NO!
+            animation: 2
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: -3
+            yourRepChange: 3
+            sanChange: -3
+            repChange: 5
+          sanityLimit: 27
+        - smartQuote:
+            quote: I'm stating the FACT that resources spent on non-citizens won't
+              support our country!
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -1
+            yourRepChange: 0
+            sanChange: 2
+            repChange: 1
+          dumbQuote:
+            quote: "I am merely stating that we shouldn\u2019t waste resources on
+              those who doesn\u2019t even live here."
+            animation: 2
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -1
+            yourRepChange: 0
+            sanChange: 1
+            repChange: 1
+          sanityLimit: 35
+        - smartQuote:
+            quote: How exactly would a stricter border security cause economic growth?
             animation: 0
             voiceClip: 0
             actor: 0
@@ -1879,7 +1960,80 @@ MonoBehaviour:
             effect: 0
             yourSanChange: 0
             yourRepChange: 0
+            sanChange: -1
+            repChange: -1
+          dumbQuote:
+            quote: "How is that going to help \u201Cus Emricans\u201D become richer?"
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: -1
+            repChange: -1
+          sanityLimit: 50
+        - smartQuote:
+            quote: It will stop the rapid increase of poor people accounted for when
+              we check for statistics.
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -1
+            yourRepChange: 0
+            sanChange: 1
+            repChange: -2
+          dumbQuote:
+            quote: "It will prevent poor immigrants from coming here and worsen the
+              statistics. They aren't part of the Emricans\u2019 problems and shouldn't
+              be counted as such."
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -1
+            yourRepChange: 0
+            sanChange: 1
+            repChange: -2
+          sanityLimit: 0
+        - smartQuote:
+            quote: A VOTE FOR ME IS A VOTE AGAINST POVERTY AND FOR A RICHER EMRICAN
+              FUTURE!
+            animation: 3
+            voiceClip: 0
+            actor: 1
+            type: 2
+            effect: 1
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 5
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
             sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: '...Aren''t those the same thing?'
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: -3
             repChange: 0
           dumbQuote:
             quote: 
@@ -1894,21 +2048,21 @@ MonoBehaviour:
             repChange: 0
           sanityLimit: 0
         - smartQuote:
-            quote: 
-            animation: 0
+            quote: THAT MEANS I'M TWICE AS RIGHT!
+            animation: 1
             voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
+            actor: 1
+            type: 2
+            effect: 1
             yourSanChange: 0
             yourRepChange: 0
-            sanChange: 0
+            sanChange: -4
             repChange: 0
           dumbQuote:
             quote: 
             animation: 0
             voiceClip: 0
-            actor: 0
+            actor: 1
             type: 0
             effect: 0
             yourSanChange: 0
@@ -1917,16 +2071,17 @@ MonoBehaviour:
             repChange: 0
           sanityLimit: 0
         - smartQuote:
-            quote: 
+            quote: Well mr. Baggington, I suppose that you can be that specific as
+              well. How exactly should we create these new jobs you speak of?
             animation: 0
             voiceClip: 0
-            actor: 0
+            actor: 2
             type: 0
             effect: 0
             yourSanChange: 0
             yourRepChange: 0
-            sanChange: 0
-            repChange: 0
+            sanChange: 2
+            repChange: 1
           dumbQuote:
             quote: 
             animation: 0
@@ -1939,375 +2094,22 @@ MonoBehaviour:
             sanChange: 0
             repChange: 0
           sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        Responses: []
+        Responses:
+        - name: 
+          accessLevel: 0
+          Path:
+            Phrases: []
+            Responses: []
+        - name: 
+          accessLevel: 0
+          Path:
+            Phrases: []
+            Responses: []
+        - name: 
+          accessLevel: 0
+          Path:
+            Phrases: []
+            Responses: []
     - name: Can't the immigrants work?
       accessLevel: 0
       Path:
@@ -2422,7 +2224,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 787247865cbb99942adf2f90d8476142, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
