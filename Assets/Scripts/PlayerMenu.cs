@@ -20,12 +20,13 @@ public class PlayerMenu : MonoBehaviour
     {
         int newSan = PlayerPrefs.GetInt("Sanity") + 35;
 
-        if (newSan > 82)
+        if (newSan > 100)
         {
-            newSan = 82;
+            newSan = 100;
         }
 
         PlayerPrefs.SetInt("Sanity", newSan);
+        PlayerPrefs.SetInt("SubjectOrOpposition", -1);
         SceneManager.LoadScene("Menu");
     }
 

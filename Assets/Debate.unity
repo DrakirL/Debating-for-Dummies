@@ -1486,22 +1486,22 @@ MonoBehaviour:
   - sprites:
     - {fileID: 21300002, guid: 787247865cbb99942adf2f90d8476142, type: 3}
     - {fileID: 21300000, guid: 787247865cbb99942adf2f90d8476142, type: 3}
-    fps: 9
+    fps: 7
     shouldLoop: 0
   - sprites:
     - {fileID: 21300000, guid: 9eaaf6d3d8bc8f74c8dae071efc19044, type: 3}
     - {fileID: 21300000, guid: 4322243bf57409143912dbc61ebad262, type: 3}
-    fps: 9
+    fps: 7
     shouldLoop: 0
   - sprites:
     - {fileID: 21300000, guid: ebe131074405fe045b12b58d198dfdd4, type: 3}
     - {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
-    fps: 9
+    fps: 7
     shouldLoop: 0
   - sprites:
     - {fileID: 21300000, guid: 5b6c24e94b006dd40812ade0cf2b854f, type: 3}
     - {fileID: 21300000, guid: 5b6c24e94b006dd40812ade0cf2b854f, type: 3}
-    fps: 9
+    fps: 7
     shouldLoop: 0
   - sprites:
     - {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
@@ -1858,7 +1858,7 @@ MonoBehaviour:
         - smartQuote:
             quote: You talk like you prefer the people of Emrica over other countries.
               Your views aren't discriminatory, are they?
-            animation: 0
+            animation: 1
             voiceClip: 0
             actor: 0
             type: 0
@@ -1870,7 +1870,7 @@ MonoBehaviour:
           dumbQuote:
             quote: Why do you think we Emricans are so much better than our neighbours?
               Are you a racist or what?
-            animation: 0
+            animation: 1
             voiceClip: 0
             actor: 0
             type: 0
@@ -1952,8 +1952,9 @@ MonoBehaviour:
             repChange: 1
           sanityLimit: 35
         - smartQuote:
-            quote: How exactly would a stricter border security cause economic growth?
-            animation: 0
+            quote: Then how exactly would a stricter border security cause economic
+              growth?
+            animation: 2
             voiceClip: 0
             actor: 0
             type: 0
@@ -1963,9 +1964,9 @@ MonoBehaviour:
             sanChange: -1
             repChange: -1
           dumbQuote:
-            quote: "How is a harsher toll going to help \u201Cus Emricans\u201D become
-              richer?"
-            animation: 0
+            quote: "Then how is a harsher toll going to help \u201Cus Emricans\u201D
+              become richer?"
+            animation: 1
             voiceClip: 0
             actor: 0
             type: 0
@@ -2027,7 +2028,7 @@ MonoBehaviour:
           sanityLimit: 0
         - smartQuote:
             quote: '...Aren''t those the same thing?'
-            animation: 0
+            animation: 2
             voiceClip: 0
             actor: 0
             type: 0
@@ -2202,7 +2203,7 @@ MonoBehaviour:
                 quote: But I've already said that increasing the reward for working
                   will make people more eager to get a job. How can that not help
                   the economy?
-                animation: 0
+                animation: 1
                 voiceClip: 0
                 actor: 0
                 type: 0
@@ -2214,7 +2215,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: "But I\u2019ve already said that it\u2019ll make people want
                   to start new businesses, which absolutely will create new jobs."
-                animation: 0
+                animation: 1
                 voiceClip: 0
                 actor: 0
                 type: 0
@@ -2385,7 +2386,7 @@ MonoBehaviour:
                 sanChange: 1
                 repChange: 2
               dumbQuote:
-                quote: There is no reason for us to spend money potential manpower
+                quote: There is no reason for us to spend money on potential manpower
                   when have our own.
                 animation: 1
                 voiceClip: 0
@@ -2412,7 +2413,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: "The fact that they\u2019ve immigrated here doesn\u2019t make
                   them worse students than the ones born here in Emrica."
-                animation: 0
+                animation: 1
                 voiceClip: 0
                 actor: 0
                 type: 0
@@ -2600,7 +2601,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: "I only said that we should use all resources we\u2019ve been
                   given."
-                animation: 0
+                animation: 2
                 voiceClip: 0
                 actor: 0
                 type: 0
@@ -3266,7 +3267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 0.7490196, b: 0.14901961, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3276,7 +3277,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 35
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -3418,22 +3419,22 @@ MonoBehaviour:
   - sprites:
     - {fileID: 21300014, guid: 9574350b6ca11ed4592515c85b08f6d9, type: 3}
     - {fileID: 21300000, guid: 9574350b6ca11ed4592515c85b08f6d9, type: 3}
-    fps: 10
+    fps: 7
     shouldLoop: 0
   - sprites:
     - {fileID: 21300004, guid: 74a3a6ed2aa8c754693ffc80e565b6a8, type: 3}
     - {fileID: 21300000, guid: 74a3a6ed2aa8c754693ffc80e565b6a8, type: 3}
-    fps: 10
+    fps: 7
     shouldLoop: 0
   - sprites:
     - {fileID: 21300006, guid: 25aefbaab8df1584f8be21725ffb4f0c, type: 3}
     - {fileID: 21300002, guid: 25aefbaab8df1584f8be21725ffb4f0c, type: 3}
-    fps: 10
+    fps: 7
     shouldLoop: 0
   - sprites:
     - {fileID: 21300000, guid: 9717bc99c98e8b5468b187f0fdb3a052, type: 3}
     - {fileID: 21300000, guid: 04f5aa9418413a6479b44bb49dd21031, type: 3}
-    fps: 10
+    fps: 7
     shouldLoop: 0
   methods: []
   playersan: 50
@@ -3676,8 +3677,8 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -305.4, y: -174.5}
-  m_SizeDelta: {x: 254, y: 139}
+  m_AnchoredPosition: {x: -304.8, y: -176}
+  m_SizeDelta: {x: 251.7, y: 138.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1830800976
 MonoBehaviour:
@@ -3699,8 +3700,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.80689657, b: 0, a: 1}
+    m_PressedColor: {r: 0.44852942, g: 0.44852942, b: 0.44852942, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -3750,8 +3751,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300002, guid: 785bf2a26a831ff499537ea66461f1ea, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
