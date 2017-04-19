@@ -16,6 +16,7 @@ public class CustomCamera : MonoBehaviour
 	IEnumerator ZoomCamera (int who, Quote citat)
     {
         float tempDur = 0;
+        StartCoroutine(CameraEffect(who, citat));
 
         //Zoom to show player
         if (who != 2)
@@ -50,8 +51,6 @@ public class CustomCamera : MonoBehaviour
             transform.position = positions[2];
             Camera.main.orthographicSize = fullscreenSize;
         }
-
-        StartCoroutine(CameraEffect(who, citat));
 	}
     
     IEnumerator CameraEffect(int who, Quote quote)

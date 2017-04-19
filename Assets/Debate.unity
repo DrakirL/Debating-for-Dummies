@@ -1499,9 +1499,9 @@ MonoBehaviour:
     fps: 7
     shouldLoop: 0
   - sprites:
-    - {fileID: 21300000, guid: 5b6c24e94b006dd40812ade0cf2b854f, type: 3}
-    - {fileID: 21300000, guid: 5b6c24e94b006dd40812ade0cf2b854f, type: 3}
-    fps: 7
+    - {fileID: 21300000, guid: f45d2539c7529aa40a16a9ff26064b0f, type: 3}
+    - {fileID: 21300006, guid: f45d2539c7529aa40a16a9ff26064b0f, type: 3}
+    fps: 9
     shouldLoop: 0
   - sprites:
     - {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
@@ -2371,7 +2371,7 @@ MonoBehaviour:
                 yourRepChange: -1
                 sanChange: 1
                 repChange: 2
-              sanityLimit: 25
+              sanityLimit: 50
             - smartQuote:
                 quote: There is no reason for us to spend money on only potential
                   manpower, when we can keep them out and focus on our own, guaranteed
@@ -2418,7 +2418,7 @@ MonoBehaviour:
                 actor: 0
                 type: 0
                 effect: 0
-                yourSanChange: 0
+                yourSanChange: -1
                 yourRepChange: 0
                 sanChange: -1
                 repChange: -1
@@ -2507,7 +2507,7 @@ MonoBehaviour:
                 voiceClip: 0
                 actor: 1
                 type: 2
-                effect: 0
+                effect: 1
                 yourSanChange: 0
                 yourRepChange: 0
                 sanChange: 2
@@ -2721,7 +2721,475 @@ MonoBehaviour:
         - name: Better education for everyone!
           accessLevel: 1
           Path:
-            Phrases: []
+            Phrases:
+            - smartQuote:
+                quote: You seem to think that their lack of education is a big problem.
+                  Is there anything preventing us from solving it?
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 2
+                sanChange: -3
+                repChange: -2
+              dumbQuote:
+                quote: "If you truly think that the immigrants are unqualified for
+                  our jobs, why don\u2019t we simply qualify them?"
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 1
+                sanChange: -2
+                repChange: -1
+              sanityLimit: 37
+            - smartQuote:
+                quote: The way to a better job market is dependant on how well educated
+                  the population is. That includes the foreignborn.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 2
+                sanChange: -2
+                repChange: 0
+              dumbQuote:
+                quote: To improve our job situation we should focus on making our
+                  education system better and available to EVERYONE who lives here.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: -2
+                repChange: 0
+              sanityLimit: 34
+            - smartQuote:
+                quote: "Immigrants aren\u2019t a waste of resources, they themselves
+                  are the best resources we have: Manpower."
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Except that there are way too many uneducated immigrants for
+                  us to handle!
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 0
+                sanChange: 1
+                repChange: 0
+              dumbQuote:
+                quote: "Except that we\u2019d still be DROWNING in uneducated Oscanians!"
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 0
+                sanChange: 1
+                repChange: -2
+              sanityLimit: 30
+            - smartQuote:
+                quote: "We shouldn't have to pay the job thieves\u2019 school fee
+                  just because they happen to be here at the moment."
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: -2
+                sanChange: 2
+                repChange: 2
+              dumbQuote:
+                quote: "We don\u2019t need to pay the job thieves\u2019 school fee
+                  just because they happen to be here at the moment."
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: -1
+                sanChange: 1
+                repChange: 2
+              sanityLimit: 50
+            - smartQuote:
+                quote: There is no reason for us to spend money on only potential
+                  manpower, when we can keep them out and focus on our own, guaranteed
+                  manpower.
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: -1
+                sanChange: 1
+                repChange: 2
+              dumbQuote:
+                quote: There is no reason for us to spend money on potential manpower
+                  when have our own.
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 0
+                sanChange: 1
+                repChange: 1
+              sanityLimit: 40
+            - smartQuote:
+                quote: What makes you think that they are worse students because were
+                  born elsewhere?
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 1
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: "The fact that they\u2019ve immigrated here doesn\u2019t make
+                  them worse students than the ones born here in Emrica."
+                animation: 1
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: 0
+                sanChange: -1
+                repChange: -1
+              sanityLimit: 40
+            - smartQuote:
+                quote: "Doesn\u2019t an unlimited supply of well educated immigrants
+                  wanting to work sound like a pretty good thing to have for our economy
+                  AND our education?"
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 1
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
+                quote: An unlimited supply of manpower willing to work and get educated
+                  sounds pretty good to me.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 2
+                sanChange: -1
+                repChange: 0
+              sanityLimit: 50
+            - smartQuote:
+                quote: Oh yes, 'cause we all know how easy it is to communicate with
+                  a refugee. How the hell could we possibly teach THEM ALL to become
+                  professional workers!
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: 0
+                sanChange: 1
+                repChange: -2
+              dumbQuote:
+                quote: "Have you ever even tried talking with an Oscanian?! They don\u2019t
+                  understand a lick of english! It\u2019s painful enough to communicate,
+                  so how the hell are we going to TEACH them to a higher degree?!"
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -3
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -3
+              sanityLimit: 30
+            - smartQuote:
+                quote: "WHY SHOULD WE SPEND TIME AND MONEY ON TEACHING PEOPLE WHO
+                  CAN\u2019T EVEN UNDERSTAND US!"
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 1
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "WE ARE PROUD, SELF SUPPORTING EMRICANS AND WE DON\u2019T NEED
+                  OUTSIDERS TO COME HERE AND WASTE OUR TIME AND RESOURCES!"
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 2
+                effect: 1
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "I\u2019d dare say that an infinite supply of both jobs and
+                  manpower is worth the extra responsibility for our english teachers.
+                  Overreaction much?"
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 3
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: I'm pretty sure that most english teachers won't mind the extra
+                  responibility. You don't have to overreact...
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 1
+                sanChange: -3
+                repChange: -2
+              sanityLimit: 37
+            - smartQuote:
+                quote: "Well I\u2019D dare say that this plan of yours will fail spectacularly
+                  at the first lecture."
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: -1
+                sanChange: 1
+                repChange: -2
+              dumbQuote:
+                quote: But that plan WILL NOT WORK! I JUST KNOW IT!
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 0
+                sanChange: 1
+                repChange: -3
+              sanityLimit: 27
+            - smartQuote:
+                quote: EMRICA NEEDS ITS INDEPENDENCE! WE SHOULD NOT RELY ON ANOTHER
+                  COUNTRY TO LEND US ITS MANPOWER!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 2
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "I only said that we should use all resources we\u2019ve been
+                  given."
+                animation: 2
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 1
+                sanChange: -1
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "And I only said that it\u2019ll do nothing but lose us money
+                  and time!"
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: -1
+                sanChange: 1
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Thank you gentlemen, you've made your opinions very clear,
+                  but we are out of time.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: If the press has any questions for either party, they'll be
+                  available on their way out.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: This debate is over.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
             Responses: []
         - name: Let Datbouje tell everyone!
           accessLevel: 2
