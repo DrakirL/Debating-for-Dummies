@@ -5,7 +5,6 @@ public class Player : Animator
 {
 	public int playersan;
 	public int playerrep;
-	public int playerrepchange;
     public List<AudioClip> playerSounds;
 
     //Happens when the debate starts
@@ -18,17 +17,18 @@ public class Player : Animator
             playersan = PlayerPrefs.GetInt("Sanity");
             playerrep = PlayerPrefs.GetInt("Reputation");
 
-            //sets sanity to 50 if below 50
-            if (playersan < 50)
+            playersan += 20;
+
+            if (playersan > 50)
             {
                 playersan = 50;
             }
 
-            //Increases reputation
-            playerrep = playerrep + playerrepchange;
+            playerrep += 15;
+
             if (playerrep > 100)
             {
-                playerrep = 100;
+                playerrep = 75;
             }
         }
 

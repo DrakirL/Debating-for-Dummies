@@ -1508,6 +1508,16 @@ MonoBehaviour:
     - {fileID: 21300000, guid: ea1ea3d05785430458532b7b6f05a672, type: 3}
     fps: 1
     shouldLoop: 0
+  - sprites:
+    - {fileID: 21300000, guid: 9eaaf6d3d8bc8f74c8dae071efc19044, type: 3}
+    - {fileID: 21300000, guid: 4322243bf57409143912dbc61ebad262, type: 3}
+    fps: 12
+    shouldLoop: 0
+  - sprites:
+    - {fileID: 21300000, guid: 6b3ed24de805ebe4799cb3a9b9a478bb, type: 3}
+    - {fileID: 21300000, guid: 6b3ed24de805ebe4799cb3a9b9a478bb, type: 3}
+    fps: 1
+    shouldLoop: 0
   methods: []
   sounds: []
   OpeningStatements:
@@ -3268,7 +3278,7 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 0
             - smartQuote:
-                quote: ONLY THREE! You've been a reporter get your celebrities staight!
+                quote: ONLY THREE! You've been a reporter, get your celebrities staight!
                 animation: 1
                 voiceClip: 0
                 actor: 1
@@ -3304,9 +3314,9 @@ MonoBehaviour:
                 sanChange: 5
                 repChange: 5
               dumbQuote:
-                quote: Emrica, is this the person you would trust in improving our
-                  economic situation? The same person who went bankrupt three times?
-                  Or five depending on how you count.
+                quote: Emrica, is this the person you would give the responsibility
+                  of improving our economic situation? The same person who went bankrupt
+                  three times? Or five depending on how you count.
                 animation: 2
                 voiceClip: 0
                 actor: 0
@@ -3976,10 +3986,33 @@ MonoBehaviour:
   Breakdown:
     Phrases:
     - smartQuote:
+        quote: I-
+        animation: 1
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
         quote: 
         animation: 0
         voiceClip: 0
-        actor: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: I-I... Uhm...
+        animation: 2
+        voiceClip: 0
+        actor: 1
         type: 0
         effect: 0
         yourSanChange: 0
@@ -3987,22 +4020,345 @@ MonoBehaviour:
         sanChange: 0
         repChange: 0
       dumbQuote:
-        quote: brupp
+        quote: 
         animation: 0
         voiceClip: 0
-        actor: 0
+        actor: 1
         type: 0
         effect: 0
         yourSanChange: 0
         yourRepChange: 0
         sanChange: 0
         repChange: 0
-      sanityLimit: 100
+      sanityLimit: 0
+    - smartQuote:
+        quote: Did you wish to add something, Mr Datbouje?
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Uuh... I...
+        animation: 2
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Umm...
+        animation: 2
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Hrmmm...
+        animation: 1
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: '...'
+        animation: 4
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: "Pep\xE9? Are you alright?"
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: I- We- Me- Them- Us-
+        animation: 2
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: EVERYTHING IS THOSE DAMNED OSCANIANS FAULT!!!
+        animation: 5
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: IF IT WASN'T FOR THEM I WOULD'VE WON THIS ELECTION BY NOW! I BET THEY
+          RIGGED IT!
+        animation: 5
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: -5
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: THEY WILL NEVER STOP RUINING US IF YOU DON'T VOTE FOR ME!!!
+        animation: 5
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: I NEED TO WIN THIS!!! I NEED TO STOP THE THIEVES!!!
+        animation: 5
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: We need to...
+        animation: 2
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Hrrrrrrrnnnnnnnnnnnnnnnnnnnnnnn...
+        animation: 6
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Stop the camera!
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
     Responses: []
   PlayerBreakdown:
     Phrases:
     - smartQuote:
-        quote: 
+        quote: But... wait... No...
         animation: 0
         voiceClip: 0
         actor: 0
@@ -4013,7 +4369,7 @@ MonoBehaviour:
         sanChange: 0
         repChange: 0
       dumbQuote:
-        quote: mu
+        quote: 
         animation: 0
         voiceClip: 0
         actor: 0
@@ -4023,7 +4379,355 @@ MonoBehaviour:
         yourRepChange: 0
         sanChange: 0
         repChange: 0
-      sanityLimit: 100
+      sanityLimit: 0
+    - smartQuote:
+        quote: '''Scuse me?'
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Be quiet! I-I need a new headline.
+        animation: 1
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: A what? Mr. Baggington this is not the time for-
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: '"POLITICAL EXPERT DISSMISSES REPORTER: DICTATORSHIP IS NEAR"'
+        animation: 3
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: What the hell?
+        animation: 1
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: '"RACIST PRESIDENTIAL CANDIDATE CAN''T CONTROL WHAT HE SAYS: WHERE
+          IS THE WORLD HEADED?"'
+        animation: 3
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Baggington, would you mind stopping the namecalling?
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: What's with that face he's making?
+        animation: 2
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: '"SLIMY FROG IN PRESIDENTIAL RACE: CAN''T STAND HIS OPPONENT''S TYPE
+          OF FACE"'
+        animation: 3
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Chaiman I'm scared...
+        animation: 2
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 1
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Baggington, do you need help of some kind?
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: '"GOVERNMENT OFFICIAL CLAIMS NEW CADIDATE IS INSANE, YOU WONT BELIEVE
+          WHAT HAPPENS NEXT..."'
+        animation: 3
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: BAGGINGTON!
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: '*COUGH*'
+        animation: 4
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 0
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
+    - smartQuote:
+        quote: Shut off the camera!
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 1
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      dumbQuote:
+        quote: 
+        animation: 0
+        voiceClip: 0
+        actor: 2
+        type: 0
+        effect: 0
+        yourSanChange: 0
+        yourRepChange: 0
+        sanChange: 0
+        repChange: 0
+      sanityLimit: 0
     Responses: []
   sanity: 0
   reputation: 0
@@ -4662,14 +5366,18 @@ MonoBehaviour:
     fps: 7
     shouldLoop: 0
   - sprites:
-    - {fileID: 21300000, guid: 9717bc99c98e8b5468b187f0fdb3a052, type: 3}
-    - {fileID: 21300000, guid: 04f5aa9418413a6479b44bb49dd21031, type: 3}
+    - {fileID: 21300002, guid: 02d28912b6788384eb5534083bfb4d2e, type: 3}
+    - {fileID: 21300002, guid: 02d28912b6788384eb5534083bfb4d2e, type: 3}
     fps: 7
+    shouldLoop: 0
+  - sprites:
+    - {fileID: 21300000, guid: f4d2c5424244a264392013958751ae5e, type: 3}
+    - {fileID: 21300000, guid: f4d2c5424244a264392013958751ae5e, type: 3}
+    fps: 1
     shouldLoop: 0
   methods: []
   playersan: 50
   playerrep: 50
-  playerrepchange: 0
   playerSounds:
   - {fileID: 0}
 --- !u!212 &1623833112
@@ -4701,7 +5409,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300014, guid: 9574350b6ca11ed4592515c85b08f6d9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d1773bc494e2c314abe59f11dda65d5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
