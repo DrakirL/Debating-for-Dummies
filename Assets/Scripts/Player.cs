@@ -10,10 +10,10 @@ public class Player : Animator
     //Happens when the debate starts
     public void BeforeDebate()
     {
+        SetupAnimator();
+
         if (PlayerPrefs.GetInt("Sanity") > 0 && PlayerPrefs.GetInt("Reputation") > 0)
         {
-            SetupAnimator();
-
             playersan = PlayerPrefs.GetInt("Sanity");
             playerrep = PlayerPrefs.GetInt("Reputation");
 
@@ -26,7 +26,7 @@ public class Player : Animator
 
             playerrep += 15;
 
-            if (playerrep > 100)
+            if (playerrep > 75)
             {
                 playerrep = 75;
             }
@@ -46,4 +46,9 @@ public class Player : Animator
 		PlayerPrefs.SetInt ("Sanity", playersan);
 		PlayerPrefs.SetInt ("Reputation", playerrep);
 	}
+
+    public void StopAnimation()
+    {
+        animations[chosenAnimation].shouldLoop = false;
+    }
 }

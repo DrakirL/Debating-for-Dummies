@@ -9,4 +9,9 @@ public class Chairman : Animator
     {
         SetupAnimator();
     }
+
+    public void StopAnimation()
+    {
+        animations[chosenAnimation].shouldLoop = false;
+    }
 }

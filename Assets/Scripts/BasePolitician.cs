@@ -241,8 +241,8 @@ public class BasePolitician : Animator
         }
 
         animations[chosenAnimation].shouldLoop = false;
-        player.animations[chosenAnimation].shouldLoop = false;
-        chairman.animations[chosenAnimation].shouldLoop = false;
+        player.StopAnimation();
+        chairman.StopAnimation();
     }
 
     public virtual void Respond(int whatPath)

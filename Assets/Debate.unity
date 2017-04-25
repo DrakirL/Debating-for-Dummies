@@ -433,8 +433,8 @@ RectTransform:
   m_RootOrder: 9
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -378.1, y: 167.17}
-  m_SizeDelta: {x: -846.6, y: -370.35}
+  m_AnchoredPosition: {x: -379.1, y: 172}
+  m_SizeDelta: {x: -848.8, y: -379.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &185284339
 MonoBehaviour:
@@ -1772,7 +1772,7 @@ MonoBehaviour:
         voiceClip: 0
         actor: 1
         type: 0
-        effect: 0
+        effect: 1
         yourSanChange: -1
         yourRepChange: 0
         sanChange: 1
@@ -1796,7 +1796,7 @@ MonoBehaviour:
         voiceClip: 0
         actor: 1
         type: 2
-        effect: 0
+        effect: 1
         yourSanChange: 0
         yourRepChange: 0
         sanChange: 10
@@ -1808,7 +1808,7 @@ MonoBehaviour:
         voiceClip: 0
         actor: 1
         type: 2
-        effect: 0
+        effect: 1
         yourSanChange: 0
         yourRepChange: 0
         sanChange: 8
@@ -3991,7 +3991,7 @@ MonoBehaviour:
         voiceClip: 0
         actor: 1
         type: 0
-        effect: 1
+        effect: 0
         yourSanChange: 0
         yourRepChange: 0
         sanChange: 0
@@ -5409,7 +5409,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d1773bc494e2c314abe59f11dda65d5f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9574350b6ca11ed4592515c85b08f6d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
