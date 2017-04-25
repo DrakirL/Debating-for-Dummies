@@ -10,18 +10,9 @@ public class Animation
     public bool shouldLoop;
 }
 
-[System.Serializable]
-public class Method
-{
-    public int whatAnimation;
-    public int whatSprite;
-    public string whatMethod;
-}
-
 public class Animator : MonoBehaviour
 {
     public Animation[] animations;
-    public Method[] methods;
     protected int chosenAnimation;
     protected int currentSprite;
 
@@ -74,18 +65,6 @@ public class Animator : MonoBehaviour
                 else
                 {
                     image.sprite = animations[chosenAnimation].sprites[currentSprite];
-                }
-
-                //If there is a method that should be called this frame, call it when the frame starts!
-                for (int runs = 0; runs < methods.Length; runs++)
-                {
-                    if (chosenAnimation == methods[runs].whatAnimation)
-                    {
-                        if (currentSprite == methods[runs].whatSprite + 1)
-                        {
-                            Invoke(methods[runs].whatMethod, 0);
-                        }
-                    }
                 }
 
                 //If this is the last frame...

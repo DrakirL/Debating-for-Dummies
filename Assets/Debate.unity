@@ -1195,7 +1195,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -1768,11 +1768,11 @@ MonoBehaviour:
     - smartQuote:
         quote: We should improve our border security to make sure that we are actually
           helping OUR OWN people over everyone else.
-        animation: 0
+        animation: 3
         voiceClip: 0
         actor: 1
         type: 0
-        effect: 1
+        effect: 0
         yourSanChange: -1
         yourRepChange: 0
         sanChange: 1
