@@ -19,10 +19,7 @@ public class PlayerMenu : MonoBehaviour
     public void TakeBreak()
     {
 
-        if (PlayerPrefs.GetInt("Sanity") < 65)
-        {
-            PlayerPrefs.SetInt("Sanity", 65);
-        }
+        PlayerPrefs.SetInt("Sanity", 50);
 
         PlayerPrefs.SetInt("SubjectOrOpposition", -1);
         SceneManager.LoadScene("Menu");

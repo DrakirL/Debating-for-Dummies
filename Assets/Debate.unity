@@ -271,7 +271,6 @@ MonoBehaviour:
     - {fileID: 21300024, guid: aae0465242b162444800bc81ab5f6de2, type: 3}
     fps: 20
     shouldLoop: 0
-  methods: []
   Buttons:
   - {fileID: 442521649}
   - {fileID: 526100619}
@@ -1518,7 +1517,6 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 6b3ed24de805ebe4799cb3a9b9a478bb, type: 3}
     fps: 1
     shouldLoop: 0
-  methods: []
   sounds: []
   OpeningStatements:
     Phrases:
@@ -3968,10 +3966,203 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 0
             Responses: []
-    - name: Can't the immigrants work?
+    - name: Just employ the unemployed.
       accessLevel: 0
       Path:
-        Phrases: []
+        Phrases:
+        - smartQuote:
+            quote: If the biggest issue is unemployed citizens, we should focus on
+              improving our programs meant to bring them into the working environment.
+              They have shown great promise so far.
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 2
+            yourRepChange: 2
+            sanChange: -2
+            repChange: 0
+          dumbQuote:
+            quote: Why don't we simply do the obvious and focus on making the unemployed,
+              well, employed.
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 2
+            yourRepChange: 1
+            sanChange: -2
+            repChange: 0
+          sanityLimit: 61
+        - smartQuote:
+            quote: That would be a good idea, IF you kept track of what the issue
+              actually is.
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 1
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 6
+            repChange: 4
+          dumbQuote:
+            quote: Allow me to explain the issue in a way that even you might understand.
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 1
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 5
+            repChange: 0
+          sanityLimit: 35
+        - smartQuote:
+            quote: You see, a country has a set amount of homes and a set amount jobs
+              that lets one buy a home.
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -5
+            yourRepChange: -1
+            sanChange: 2
+            repChange: -5
+          dumbQuote:
+            quote: This country only has so many houses and only so many jobs to pay
+              for said houses.
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -6
+            yourRepChange: 0
+            sanChange: 1
+            repChange: -6
+          sanityLimit: 45
+        - smartQuote:
+            quote: Now, are these valuble resources better spent on random strangers
+              passing through, or on keeping said strangers from stealing the jobs
+              meant for OUR population?
+            animation: 3
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -3
+            yourRepChange: -2
+            sanChange: 2
+            repChange: -2
+          dumbQuote:
+            quote: Should we spend these valuable resources on immigrating strangers
+              or on keeper the strangers from STEALING OUR JOBS!
+            animation: 3
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -2
+            yourRepChange: -1
+            sanChange: 1
+            repChange: -3
+          sanityLimit: 55
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
         Responses: []
     - name: Blaming neighbours? Typical Datbouje.
       accessLevel: 2
@@ -4970,7 +5161,6 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 9717bc99c98e8b5468b187f0fdb3a052, type: 3}
     fps: 15
     shouldLoop: 0
-  methods: []
   chairSounds:
   - {fileID: 0}
 --- !u!212 &1373938337
@@ -5375,7 +5565,6 @@ MonoBehaviour:
     - {fileID: 21300000, guid: f4d2c5424244a264392013958751ae5e, type: 3}
     fps: 1
     shouldLoop: 0
-  methods: []
   playersan: 50
   playerrep: 50
   playerSounds:

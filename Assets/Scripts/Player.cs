@@ -19,9 +19,9 @@ public class Player : Animator
 
             playersan += 20;
 
-            if (playersan > 50)
+            if (playersan > 75)
             {
-                playersan = 50;
+                playersan = 75;
             }
 
             playerrep += 15;
