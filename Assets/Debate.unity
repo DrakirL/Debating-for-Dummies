@@ -1688,7 +1688,7 @@ MonoBehaviour:
       sanityLimit: 50
     - smartQuote:
         quote: The statistics show that most homeless are just as capable of working
-          hard as the economicly privilaged.
+          hard as the economicly privilaged, and they are most definitely eager to.
         animation: 0
         voiceClip: 0
         actor: 0
@@ -1700,7 +1700,7 @@ MonoBehaviour:
         repChange: 0
       dumbQuote:
         quote: The statistics prove that the majority of homeless people are not entirely
-          useless when it comes to work.
+          useless as a potential work force.
         animation: 0
         voiceClip: 0
         actor: 0
@@ -1897,7 +1897,7 @@ MonoBehaviour:
             effect: 1
             yourSanChange: -2
             yourRepChange: -1
-            sanChange: -3
+            sanChange: 0
             repChange: -2
           dumbQuote:
             quote: Yes... Wait...
@@ -1920,7 +1920,7 @@ MonoBehaviour:
             effect: 0
             yourSanChange: -1
             yourRepChange: -1
-            sanChange: -1
+            sanChange: -4
             repChange: -2
           dumbQuote:
             quote: NO NO NO I MEANT, NO!
@@ -1986,8 +1986,8 @@ MonoBehaviour:
           sanityLimit: 50
         - smartQuote:
             quote: It will stop the rapid increase of poor people accounted for when
-              we check for statistics.
-            animation: 0
+              we check for statistics...
+            animation: 2
             voiceClip: 0
             actor: 1
             type: 0
@@ -4072,16 +4072,43 @@ MonoBehaviour:
             repChange: -3
           sanityLimit: 55
         - smartQuote:
-            quote: 
-            animation: 0
+            quote: Or we could just build more houses, creating more jobs in the process,
+              thus improving our economy without throwing anyone out, as I said when
+              we started.
+            animation: 2
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 3
+            yourRepChange: 3
+            sanChange: -3
+            repChange: -3
+          dumbQuote:
+            quote: Or we could just build more houses, creating more jobs that way.
+              We want our economy to improve not to be isolated-
+            animation: 2
             voiceClip: 0
             actor: 0
             type: 0
             effect: 0
             yourSanChange: 0
+            yourRepChange: 2
+            sanChange: -3
+            repChange: -2
+          sanityLimit: 40
+        - smartQuote:
+            quote: Do you really think that the market will grow if we let uneducated
+              outsiders run it!?
+            animation: 1
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 1
+            yourSanChange: -2
             yourRepChange: 0
-            sanChange: 0
-            repChange: 0
+            sanChange: -2
+            repChange: -2
           dumbQuote:
             quote: 
             animation: 0
@@ -4095,15 +4122,16 @@ MonoBehaviour:
             repChange: 0
           sanityLimit: 0
         - smartQuote:
-            quote: 
-            animation: 0
+            quote: LET OSCANIA TAKE OF THEIR OWN PEOPLE, AND LET EMRICA RETURN TO
+              ITS FORMER GLORY DAYS!
+            animation: 3
             voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
+            actor: 1
+            type: 2
+            effect: 1
             yourSanChange: 0
             yourRepChange: 0
-            sanChange: 0
+            sanChange: 5
             repChange: 0
           dumbQuote:
             quote: 
@@ -4117,53 +4145,22 @@ MonoBehaviour:
             sanChange: 0
             repChange: 0
           sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        - smartQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          dumbQuote:
-            quote: 
-            animation: 0
-            voiceClip: 0
-            actor: 0
-            type: 0
-            effect: 0
-            yourSanChange: 0
-            yourRepChange: 0
-            sanChange: 0
-            repChange: 0
-          sanityLimit: 0
-        Responses: []
+        Responses:
+        - name: What do you mean by "uneducated"?
+          accessLevel: 0
+          Path:
+            Phrases: []
+            Responses: []
+        - name: What "glory days"?
+          accessLevel: 2
+          Path:
+            Phrases: []
+            Responses: []
+        - name: Facts stand. More people means more jobs.
+          accessLevel: 1
+          Path:
+            Phrases: []
+            Responses: []
     - name: Blaming neighbours? Typical Datbouje.
       accessLevel: 2
       Path:
@@ -4523,7 +4520,7 @@ MonoBehaviour:
         repChange: 0
       sanityLimit: 0
     - smartQuote:
-        quote: Stop the camera!
+        quote: What the- Stop the camera!
         animation: 0
         voiceClip: 0
         actor: 2
@@ -4687,8 +4684,8 @@ MonoBehaviour:
         repChange: 0
       sanityLimit: 0
     - smartQuote:
-        quote: '"RACIST PRESIDENTIAL CANDIDATE CAN''T CONTROL WHAT HE SAYS: WHERE
-          IS THE WORLD HEADED?"'
+        quote: '"PRESIDENTIAL CANDIDATE CAN''T CONTROL WHAT HE SAYS: WHERE IS THE
+          WORLD HEADED?"'
         animation: 3
         voiceClip: 0
         actor: 0
@@ -4757,8 +4754,8 @@ MonoBehaviour:
         repChange: 0
       sanityLimit: 0
     - smartQuote:
-        quote: '"SLIMY FROG IN PRESIDENTIAL RACE: CAN''T STAND HIS OPPONENT''S TYPE
-          OF FACE"'
+        quote: '"SLIMY FROG IN PRESIDENTIAL RACE-IST: CAN''T STAND HIS OPPONENT''S
+          FACE"'
         animation: 3
         voiceClip: 0
         actor: 0

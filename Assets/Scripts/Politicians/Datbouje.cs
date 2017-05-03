@@ -10,19 +10,10 @@ public class Datbouje : BasePolitician
 
     public override void SetStartStats()
     {
-        sanity = player.playersan - (player.playerrep / 5);
-
-        if (sanity > 60)
-        {
-            sanity = 45;
-        }
-
         base.SetStartStats();
-        reputation = (player.playerrep / 2) + (sanity / 2);
 
-        if (reputation > 75)
-        {
-            reputation = 80;
-        }
+        sanity = player.playersan * 2 / 3;
+
+        reputation = player.playerrep * 2 / 3;
     }
 }

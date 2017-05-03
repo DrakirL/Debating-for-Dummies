@@ -335,7 +335,7 @@ public class BasePolitician : Animator
 
             if (player.playerrep > reputation)
             {
-                reputation -= player.playerrep - reputation;
+                reputation -= (player.playerrep - reputation) / 2;
             }
 
             else
@@ -351,7 +351,7 @@ public class BasePolitician : Animator
 
             if (reputation > player.playerrep)
             {
-                player.playerrep -= reputation - player.playerrep;
+                player.playerrep -= (reputation - player.playerrep) / 2;
             }
 
             else
