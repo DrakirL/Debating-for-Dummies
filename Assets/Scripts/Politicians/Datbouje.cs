@@ -14,6 +14,6 @@ public class Datbouje : BasePolitician
 
         sanity = player.playersan * 2 / 3;
 
-        reputation = player.playerrep * 2 / 3;
+        reputation = player.playerrep * 5 / 6;
     }
 }

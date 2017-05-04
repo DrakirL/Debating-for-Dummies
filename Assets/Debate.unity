@@ -4098,8 +4098,8 @@ MonoBehaviour:
             repChange: -2
           sanityLimit: 40
         - smartQuote:
-            quote: Do you really think that the market will grow if we let uneducated
-              outsiders run it!?
+            quote: Do you really think that the market will grow if we let dumb outsiders
+              run it!?
             animation: 1
             voiceClip: 0
             actor: 1
@@ -4146,10 +4146,255 @@ MonoBehaviour:
             repChange: 0
           sanityLimit: 0
         Responses:
-        - name: What do you mean by "uneducated"?
+        - name: What "dumb outsiders"?
           accessLevel: 0
           Path:
-            Phrases: []
+            Phrases:
+            - smartQuote:
+                quote: '"Dumb outsiders"? Really? You''re trying to make the point
+                  that the immigrants as a whole are less intellectual?'
+                animation: 2
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 3
+                sanChange: -3
+                repChange: -2
+              dumbQuote:
+                quote: Dumb outsiders!? You don't think intellegent people are born
+                  outside our borders?!
+                animation: 1
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 1
+                yourSanChange: -4
+                yourRepChange: 0
+                sanChange: -2
+                repChange: -3
+              sanityLimit: 65
+            - smartQuote:
+                quote: Their IQ is irrelevant. They haven't gone through any of our
+                  programs and shouldn't get any jobs where those are needed, meaning
+                  ALL OF THEM!
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: -1
+                sanChange: 3
+                repChange: 1
+              dumbQuote:
+                quote: "It doesn\u2019t matter how smart they are, they haven\u2019t
+                  gone through any of our programs!"
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: 0
+                sanChange: 1
+                repChange: -1
+              sanityLimit: 55
+            - smartQuote:
+                quote: If they want to take our jobs instead of us, they need to deserve
+                  our jobs more than we do!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -2
+                sanChange: 2
+                repChange: 2
+              dumbQuote:
+                quote: If they want our jobs, they need to deserve our jobs more than
+                  we do!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: -1
+                sanChange: 1
+                repChange: 1
+              sanityLimit: 60
+            - smartQuote:
+                quote: Who here wants to have their position taken over by some uneducated
+                  street beggar and drug addict?!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -4
+                yourRepChange: -2
+                sanChange: 2
+                repChange: -3
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: THAT'S RIGHT! KEEP THE THIEVES OUT TO KEEP THE PROPERTY!
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 2
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: If there are jobs left, we Emricans can fill them ourselves.
+                  Flooding the streets with more homeless people WILL. NOT. HELP!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 5
+                repChange: 0
+              dumbQuote:
+                quote: If there are jobs left, we Emricans can fill them ourselves.
+                  Who'd think that flooding the streets with more homeless people
+                  helps!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 1
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 0
+              sanityLimit: 33
+            - smartQuote:
+                quote: So, do you get how thing work now, Commoner?
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 1
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: No, Datbouje, I still don't get how giving jobs to the jobless
+                  increases poverty. But that doesn't matter as much as the question
+                  you ignored.
+                animation: 1
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 5
+                yourRepChange: 3
+                sanChange: -5
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Wasn't "dumb outsiders" enough, so you had to call them "uneducated
+                  street beggars and drug addicts" as well?
+                animation: 1
+                voiceClip: 0
+                actor: 0
+                type: 1
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 4
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "You aren\u2019t claiming that they are uneducated, BECAUSE
+                  they are immigrants, are you?"
+                animation: 1
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -2
+                sanChange: 0
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
             Responses: []
         - name: What "glory days"?
           accessLevel: 2

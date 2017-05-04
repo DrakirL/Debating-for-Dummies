@@ -175,7 +175,7 @@ public class BasePolitician : Animator
     }
     public virtual void opposingQuote(Phrase citat)
     {
-        if (sanity >= citat.sanityLimit)
+        if (sanity >= citat.sanityLimit || currentDialogue == Breakdown)
         {
             ChangeStats(citat.smartQuote);
             tBox.Type(citat.smartQuote.quote, this);
@@ -199,7 +199,7 @@ public class BasePolitician : Animator
     }
     public virtual void yourQuote(Phrase citat)
     {
-        if (player.playersan >= citat.sanityLimit)
+        if (player.playersan >= citat.sanityLimit || currentDialogue == PlayerBreakdown)
         {
             ChangeStats(citat.smartQuote);
             tBox.Type(citat.smartQuote.quote, this);
@@ -337,11 +337,6 @@ public class BasePolitician : Animator
             {
                 reputation -= (player.playerrep - reputation) / 2;
             }
-
-            else
-            {
-                player.playerrep -= quote.yourRepChange;
-            }
         }
 
         else
@@ -352,11 +347,6 @@ public class BasePolitician : Animator
             if (reputation > player.playerrep)
             {
                 player.playerrep -= (reputation - player.playerrep) / 2;
-            }
-
-            else
-            {
-                reputation -= quote.yourRepChange;
             }
         }
     }
