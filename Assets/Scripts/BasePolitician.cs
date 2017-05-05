@@ -276,7 +276,7 @@ public class BasePolitician : Animator
                 player.playersan += quote.yourSanChange;
             }
 
-            //Insults cause a bit of base damage on san and rep, as well as deal extra repdamage to whoever has the lowest rep.
+            //Insults cause a bit of base damage on san and rep, as well as deal extra repdamage if the assailant has higher rep
             else if (quote.type == Quote.Categories.Insult)
             {
                 insultChange(quote);
@@ -310,12 +310,14 @@ public class BasePolitician : Animator
             if (reputation <= 0 || sanity <= 0)
             {
                 //enable breakdown
+                speaker.Stop();
                 ChooseDialogue(Breakdown);
             }
 
             else if (player.playerrep <= 0 || player.playersan <= 0)
             {
                 //enable player breakdown
+                speaker.Stop();
                 ChooseDialogue(PlayerBreakdown);
             }
 
