@@ -4087,7 +4087,7 @@ MonoBehaviour:
             repChange: -3
           dumbQuote:
             quote: Or we could just build more houses, creating more jobs that way.
-              We want our economy to improve not to be isolated-
+              We want our economy to improve not to be isolated.
             animation: 2
             voiceClip: 0
             actor: 0
@@ -4349,7 +4349,7 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 0
             - smartQuote:
-                quote: Wasn't "dumb outsiders" enough, so you had to call them "uneducated
+                quote: Wasn't "dumb outsiders" enough? You had to call them "uneducated
                   street beggars and drug addicts" as well?
                 animation: 1
                 voiceClip: 0
@@ -4389,6 +4389,362 @@ MonoBehaviour:
                 animation: 0
                 voiceClip: 0
                 actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: I LOVE OSCANIANS, and nothing you say will change that! But
+                  what you say won't magicly make them educated either.
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -3
+                yourRepChange: 2
+                sanChange: 3
+                repChange: 2
+              dumbQuote:
+                quote: I LOVE OSCANIANS, and nothing you say will change that! Much
+                  like nothing you say will make them smarter.
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -4
+                yourRepChange: 2
+                sanChange: 3
+                repChange: -2
+              sanityLimit: 60
+            - smartQuote:
+                quote: See? That's exactely what I'm talking abou-
+                animation: 2
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 3
+                sanChange: -1
+                repChange: -2
+              dumbQuote:
+                quote: Wait what?
+                animation: 2
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: -1
+                sanChange: -1
+                repChange: -1
+              sanityLimit: 60
+            - smartQuote:
+                quote: SEE HOW THAT LEFT HIM SPEECHLESS!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -2
+                yourRepChange: 0
+                sanChange: 2
+                repChange: -2
+              dumbQuote:
+                quote: THAT LEFT YOU SPEECHLESS, HUH!?
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: 0
+                sanChange: 2
+                repChange: -3
+              sanityLimit: 50
+            - smartQuote:
+                quote: I would like to return to the subject before our airing time
+                  runs out, if you two don't mind...
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Datbouje, we want to reduce unemployment. How would you try
+                  to do that? Summarize briefly.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: 'In layman terms: I''ll keep the problem from coming here in
+                  the first place!'
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: -2
+              dumbQuote:
+                quote: 'Put simply: I will make sure the problem never enters Emrica
+                  in the first place!'
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: -3
+              sanityLimit: 50
+            - smartQuote:
+                quote: How you ask? WITH MY BARE HANDS IF I HAVE TO!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 0
+                sanChange: 1
+                repChange: 1
+              dumbQuote:
+                quote: We could build a wall or something, I haven't thought that
+                  far...
+                animation: 2
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -1
+              sanityLimit: 25
+            - smartQuote:
+                quote: '...Plain and simple...'
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Alright, Baggington. Summarize your idea briefly.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We should shift our focus towards adding extra jobs to the
+                  market so everyone gets a share.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 1
+                sanChange: -1
+                repChange: 0
+              dumbQuote:
+                quote: We should focus on adding more jobs to the market.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 50
+            - smartQuote:
+                quote: More jobs lead to more employees and more employees lead to
+                  a better economy.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 1
+                sanChange: -1
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Sounds effective...
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Sadly, our time is up, if the press has any questions, they
+                  can meet the candidates on their way out.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "Stay tuned for tomorrow\u2019s debate between Ursula Bellum
+                  and Olaf Falconberg."
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: I'll see you then, but this debate is over.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
                 type: 0
                 effect: 0
                 yourSanChange: 0
