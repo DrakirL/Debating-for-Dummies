@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4061,7 +4061,7 @@ MonoBehaviour:
             repChange: -2
           dumbQuote:
             quote: Should we spend these valuable resources on immigrating strangers
-              or on keeper the strangers from STEALING OUR JOBS!
+              or on keeping the strangers from STEALING OUR JOBS!
             animation: 3
             voiceClip: 0
             actor: 1
@@ -4993,7 +4993,7 @@ MonoBehaviour:
                 yourRepChange: -1
                 sanChange: 1
                 repChange: 0
-              sanityLimit: 0
+              sanityLimit: 30
             - smartQuote:
                 quote: We should shift our focus towards adding extra jobs to the
                   market.
@@ -5091,7 +5091,7 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 35
             - smartQuote:
-                quote: Bat that doesn't mean that we can just get everything for them.
+                quote: But that doesn't mean that we can just get everything for them.
                   Giving away costs money.
                 animation: 0
                 voiceClip: 0
@@ -5212,7 +5212,516 @@ MonoBehaviour:
         - name: Facts stand. More people means more jobs.
           accessLevel: 1
           Path:
-            Phrases: []
+            Phrases:
+            - smartQuote:
+                quote: No Datbouje, letting the immigrants in WILL lead to a better
+                  economy. The effects have of course been tested.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 2
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
+                quote: Yes, I do believe that letting workers in will improve our
+                  economy and I have my reasons to.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 1
+                sanChange: -2
+                repChange: 0
+              sanityLimit: 50
+            - smartQuote:
+                quote: Thorough reseach and historic examples show how a large collection
+                  of practices is way better for the growth of a civilication that
+                  the perfection of a single area.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 3
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
+                quote: Research shows that educational level doesn't matter as much
+                  as the quantity of people it has to offer.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 2
+                sanChange: -2
+                repChange: 0
+              sanityLimit: 65
+            - smartQuote:
+                quote: Yeah, sloppily done work has absolutely NO downsides WHAT-SO-EVER!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: '''Cause doing a sloppy job has absolutely NO CONSEQUENSES
+                  at all!'
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: -1
+                repChange: 0
+              sanityLimit: 50
+            - smartQuote:
+                quote: Like we are supposed to believe that!
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 1
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Uneducated is not the same as sloppy. Not all jobs are ones
+                  where you have to know society inside out like your secretaries
+                  are used to.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 3
+                yourRepChange: 3
+                sanChange: -3
+                repChange: -3
+              dumbQuote:
+                quote: Uneducated is not the same as sloppy. Not all jobs require
+                  in deapth thinking to be preformed.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 1
+                sanChange: -1
+                repChange: -2
+              sanityLimit: 60
+            - smartQuote:
+                quote: Any store or simple service business will happily take any
+                  loyal employee they are given.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 2
+                sanChange: -2
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: If they don't know the prefessions specifics beforehand, they
+                  will learn from experiance, sometimes as soon as on the first day.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 1
+                sanChange: -1
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: It is not meant to replace media, innovation or reseach based
+                  positions, mearly compliment them.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 1
+                sanChange: -1
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: And before you ask, yes, these "smaller" buisinesses are good
+                  for the market, because they are what customers go to daily.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 3
+                sanChange: -3
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: '......'
+                animation: 4
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Mr. Datbouje? Do you have anything you'd like to add to the
+                  discussion?
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: '...We''d still be forced to rely on Oscania to keep our market
+                  running. Th-that isn''t good for our independance,'
+                animation: 2
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: '...W-we''d still have to rely on Oscania to give us their
+                  manpower.'
+                animation: 2
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -1
+              sanityLimit: 40
+            - smartQuote:
+                quote: Back to square one...
+                animation: 2
+                voiceClip: 0
+                actor: 0
+                type: 2
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: What?
+                animation: 2
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -2
+                sanChange: 0
+                repChange: -1
+              sanityLimit: 55
+            - smartQuote:
+                quote: Even IF we could live in a society like that, it would be easier
+                  and more effective to reduce the poor percentage directly instead
+                  of making them fight for dominance.
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -2
+                sanChange: 2
+                repChange: 2
+              dumbQuote:
+                quote: I guess we theoretically COULD make do with that kind of lifestyle.
+                  But it would be much safer and easier to just reduce the amount
+                  of homeless people who take jobs from other homeless people.
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -1
+                sanChange: 2
+                repChange: 2
+              sanityLimit: 50
+            - smartQuote:
+                quote: We can and should support ourselves! Let Emrica become the
+                  independent power we have always been known for being!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 0
+                sanChange: 2
+                repChange: 2
+              dumbQuote:
+                quote: We can and should support ourselves as the independant power
+                  we've always been known as!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 0
+                sanChange: 2
+                repChange: 1
+              sanityLimit: 50
+            - smartQuote:
+                quote: Vote for the wealthy future of our beloved nation!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 2
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 4
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We already ARE the greatest power in the world and we can prove
+                  it by helping other nations out!
+                animation: 1
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 3
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
+                quote: We already ARE one of the most independent nations in the world
+                  and sharing our wealth will only improve our status!
+                animation: 1
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 1
+                sanChange: -2
+                repChange: 0
+              sanityLimit: 50
+            - smartQuote:
+                quote: Vote for the improvement of lives across the world.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 2
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Thank you gentlemen, you've presented unusually clear views
+                  today. But that is sadly all the time we have.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: If the press has any questions, they can meet the candidates
+                  on their way out. Stay tuned for the other debates airing this week.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: I am Woody Chairman, and this debate is over.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
             Responses: []
     - name: Blaming neighbours? Typical Datbouje.
       accessLevel: 2
@@ -6527,7 +7036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
