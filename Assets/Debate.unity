@@ -4756,7 +4756,458 @@ MonoBehaviour:
         - name: What "glory days"?
           accessLevel: 2
           Path:
-            Phrases: []
+            Phrases:
+            - smartQuote:
+                quote: Former glory days?
+                animation: 2
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: -1
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Our country's suffered through immense inflation, Emrica was
+                  on the bottom half of the most well educated countries until 75
+                  years ago and we were one of the last countries to abolish slavery.
+                animation: 2
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 0
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: We were one of the last countries in the world to abolish slavery!
+                animation: 1
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: -2
+                repChange: -2
+              sanityLimit: 55
+            - smartQuote:
+                quote: Datbouje. Your so called "glory days" allowed us to make immigrants
+                  do our work without pay. That doesn't seem all too independant.
+                animation: 1
+                voiceClip: 0
+                actor: 0
+                type: 1
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 4
+                repChange: 4
+              dumbQuote:
+                quote: You are promoting a period where immigrants did our dirtywork
+                  without pay as independant. Care to explain?
+                animation: 1
+                voiceClip: 0
+                actor: 0
+                type: 1
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 2
+              sanityLimit: 60
+            - smartQuote:
+                quote: I'VE HAD NOTHING TO DO WITH SLAVERY! GOOD OLD DAYS IS A COMMON
+                  SAYING!
+                animation: 1
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: -5
+                sanChange: 3
+                repChange: -3
+              dumbQuote:
+                quote: Ah yes, the good old days...
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -5
+                yourRepChange: 0
+                sanChange: 5
+                repChange: -5
+              sanityLimit: 25
+            - smartQuote:
+                quote: You were one of those late slave owners, weren't you, datbouje?
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 1
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 2
+              dumbQuote:
+                quote: Wait, what?
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: -4
+                sanChange: 2
+                repChange: 2
+              sanityLimit: 35
+            - smartQuote:
+                quote: Err, no, didn't say anything.
+                animation: 2
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: An interesting thing to bring up, Baggington...
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: But we are running low on time and I personally am very interested
+                  in hearing what you would do if you were to be elected.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We want to reduce the amount of unemployed here in Emrica.
+                  How would you try to achieve that?
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Very well...
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: Uhm... Well...
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: -1
+                sanChange: 1
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We should shift our focus towards adding extra jobs to the
+                  market.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: We should shift our focus towards adding extra jobs to the
+                  market somehow.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: -1
+                sanChange: 1
+                repChange: 0
+              sanityLimit: 45
+            - smartQuote:
+                quote: More jobs lead to more employees and more employees lead to
+                  a better economy.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 1
+                sanChange: -1
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Good. Do you have anything to add mr. Datbouje?
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: I LOVE OSCANIA! That pompous portfolio is simply trying to
+                  make me look bad!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 2
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 0
+              dumbQuote:
+                quote: Some say I hate Oscania. I LOVE OSCANIA!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 1
+                repChange: 0
+              sanityLimit: 35
+            - smartQuote:
+                quote: Bat that doesn't mean that we can just get everything for them.
+                  Giving away costs money.
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -2
+                sanChange: 1
+                repChange: 1
+              dumbQuote:
+                quote: That's all I have to say...
+                animation: 2
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -1
+              sanityLimit: 30
+            - smartQuote:
+                quote: Plain and simple.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: I am sorry gentlemen but we have to cut things short here,
+                  TV-schedules are tight these days.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We commentators will discuss this debate further in the green
+                  room in a few minutes.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Stay tuned for that, but this debate is over.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
             Responses: []
         - name: Facts stand. More people means more jobs.
           accessLevel: 1
