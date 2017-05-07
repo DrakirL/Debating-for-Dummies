@@ -1518,7 +1518,19 @@ MonoBehaviour:
     fps: 1
     shouldLoop: 0
   sounds:
-  - {fileID: 8300000, guid: 39924d30fbbd79f4d95fd5c4f9a6f446, type: 3}
+  - {fileID: 8300000, guid: 8ec173669826e6046adde213c89b6094, type: 3}
+  - {fileID: 8300000, guid: e250850c5a9a5174fac2d6773df9be99, type: 3}
+  - {fileID: 8300000, guid: 66499d54547fb1e4c9bba4de544d2a81, type: 3}
+  - {fileID: 8300000, guid: d3f65f91c2d21d74f9333c9c9f08487b, type: 3}
+  - {fileID: 8300000, guid: 20c1e876f8a362e4889aacd749e4a3a6, type: 3}
+  - {fileID: 8300000, guid: ae6a55af7fd76d44587177412f4fb928, type: 3}
+  - {fileID: 8300000, guid: 810b86b9d17f383468a2c5ec3bc797f0, type: 3}
+  - {fileID: 8300000, guid: b522b90bc168a5c418d7f860ed81a927, type: 3}
+  - {fileID: 8300000, guid: ec19191e6dcbf384ca3b99327f8744ef, type: 3}
+  - {fileID: 8300000, guid: 53000e05365863d409948e09617d1a6a, type: 3}
+  - {fileID: 8300000, guid: bde353ac5dee2314fa737a52d11fb0ce, type: 3}
+  - {fileID: 8300000, guid: 849a31063303a1347a8e7cff0dfea3a0, type: 3}
+  - {fileID: 8300000, guid: 2e5505124529e2a42859d3ea7a05d406, type: 3}
   OpeningStatements:
     Phrases:
     - smartQuote:
@@ -1729,7 +1741,7 @@ MonoBehaviour:
         quote: Like they aren't homeless for a reason. If they can't work, they can't
           work! Don't give 'em jobs 'cause you pity them.
         animation: 1
-        voiceClip: 0
+        voiceClip: 1
         actor: 1
         type: 0
         effect: 0
@@ -1768,7 +1780,7 @@ MonoBehaviour:
         quote: We should improve our border security to make sure that we are actually
           helping OUR OWN people over everyone else.
         animation: 3
-        voiceClip: 0
+        voiceClip: 7
         actor: 1
         type: 0
         effect: 0
@@ -1792,7 +1804,7 @@ MonoBehaviour:
         quote: When I get elected, I will assure that no Emrican will ever have to
           pay for the mess our neighbours have caused!
         animation: 3
-        voiceClip: 0
+        voiceClip: 7
         actor: 1
         type: 2
         effect: 1
@@ -1804,7 +1816,7 @@ MonoBehaviour:
         quote: "When I get elected, I promise that we proud Emricans won\u2019t have
           to clean up our neighbours problems for them EVER again!"
         animation: 3
-        voiceClip: 0
+        voiceClip: 7
         actor: 1
         type: 2
         effect: 1
@@ -6340,7 +6352,7 @@ MonoBehaviour:
         repChange: 0
       sanityLimit: 0
     - smartQuote:
-        quote: Chaiman I'm scared...
+        quote: Chairman I'm scared...
         animation: 2
         voiceClip: 0
         actor: 1
@@ -6539,11 +6551,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6ccc3f8bdc4aa7c488df4381264c8071, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2e5505124529e2a42859d3ea7a05d406, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   Priority: 128
