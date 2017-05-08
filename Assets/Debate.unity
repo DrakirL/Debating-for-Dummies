@@ -1327,7 +1327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba386c16d8543b548912f3dafc7f315a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letterPause: 0.015
+  letterPause: 0.01
   text: {fileID: 875956693}
 --- !u!1 &1163216239
 GameObject:
@@ -1640,7 +1640,7 @@ MonoBehaviour:
         repChange: 0
       dumbQuote:
         quote: Eh, well...
-        animation: 0
+        animation: 2
         voiceClip: 0
         actor: 0
         type: 0
@@ -1664,7 +1664,7 @@ MonoBehaviour:
       dumbQuote:
         quote: I think we should do our best to create more jobs so the homeless can
           afford to pay housing for themselves.
-        animation: 0
+        animation: 1
         voiceClip: 0
         actor: 0
         type: 0
@@ -1678,7 +1678,7 @@ MonoBehaviour:
         quote: For instance, we are currently lacking construction workers. So that
           would be an easy market to improve on.
         animation: 0
-        voiceClip: 0
+        voiceClip: 2
         actor: 0
         type: 0
         effect: 0
@@ -1690,7 +1690,7 @@ MonoBehaviour:
         quote: The jobs could be building more houses, since we've been lacking construction
           workers as of late.
         animation: 0
-        voiceClip: 0
+        voiceClip: 1
         actor: 0
         type: 0
         effect: 0
@@ -1703,7 +1703,7 @@ MonoBehaviour:
         quote: The statistics show that most homeless are just as capable of working
           hard as the economicly privilaged, and they are most definitely eager to.
         animation: 0
-        voiceClip: 0
+        voiceClip: 9
         actor: 0
         type: 0
         effect: 0
@@ -1715,7 +1715,7 @@ MonoBehaviour:
         quote: The statistics prove that the majority of homeless people are not entirely
           useless as a potential work force.
         animation: 0
-        voiceClip: 0
+        voiceClip: 9
         actor: 0
         type: 0
         effect: 0
@@ -1729,7 +1729,7 @@ MonoBehaviour:
           trust a shaggy drug addict to take the responsibility of building new homes
           for us Emricans?
         animation: 0
-        voiceClip: 0
+        voiceClip: 1
         actor: 1
         type: 0
         effect: 0
@@ -7139,7 +7139,18 @@ MonoBehaviour:
   playersan: 50
   playerrep: 50
   playerSounds:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 7facca0e531029244a8444c707ba7f58, type: 3}
+  - {fileID: 8300000, guid: 48e26cff4c77eb4469e2ce2708da402b, type: 3}
+  - {fileID: 8300000, guid: b7924541c7cd98f4a911b30673dc83a7, type: 3}
+  - {fileID: 8300000, guid: 106a5ef975be8364684e21a2e3c3f437, type: 3}
+  - {fileID: 8300000, guid: edb08af0ccc051d4abd18c112741486d, type: 3}
+  - {fileID: 8300000, guid: 8d006cc27f3c5e84191a325954dd10ae, type: 3}
+  - {fileID: 8300000, guid: 2beff5b5e6360284f9ddff9c8cfd461a, type: 3}
+  - {fileID: 8300000, guid: 355a192e0851a7d448279ba9602f1ea1, type: 3}
+  - {fileID: 8300000, guid: 5b60e0ee9f92a874f953ac3d3a3d27f9, type: 3}
+  - {fileID: 8300000, guid: 28ad6ef304153a842aeb3df24476b0b9, type: 3}
+  - {fileID: 8300000, guid: 14d3e58babfcf884f947255bf7ff9700, type: 3}
+  - {fileID: 8300000, guid: 85f4b2e5704b8ba4489d3ae22b3b0ed1, type: 3}
 --- !u!212 &1623833112
 SpriteRenderer:
   m_ObjectHideFlags: 0
