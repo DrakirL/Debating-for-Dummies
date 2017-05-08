@@ -1531,6 +1531,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: bde353ac5dee2314fa737a52d11fb0ce, type: 3}
   - {fileID: 8300000, guid: 849a31063303a1347a8e7cff0dfea3a0, type: 3}
   - {fileID: 8300000, guid: 2e5505124529e2a42859d3ea7a05d406, type: 3}
+  - {fileID: 0}
   OpeningStatements:
     Phrases:
     - smartQuote:
@@ -1640,8 +1641,8 @@ MonoBehaviour:
         repChange: 0
       dumbQuote:
         quote: Eh, well...
-        animation: 2
-        voiceClip: 0
+        animation: 0
+        voiceClip: 2
         actor: 0
         type: 0
         effect: 0
@@ -5750,7 +5751,7 @@ MonoBehaviour:
     - smartQuote:
         quote: I-
         animation: 1
-        voiceClip: 0
+        voiceClip: 10
         actor: 1
         type: 0
         effect: 0
@@ -5773,7 +5774,7 @@ MonoBehaviour:
     - smartQuote:
         quote: I-I... Uhm...
         animation: 2
-        voiceClip: 0
+        voiceClip: 10
         actor: 1
         type: 0
         effect: 0
@@ -5819,7 +5820,7 @@ MonoBehaviour:
     - smartQuote:
         quote: Uuh... I...
         animation: 2
-        voiceClip: 0
+        voiceClip: 4
         actor: 1
         type: 0
         effect: 0
@@ -5842,7 +5843,7 @@ MonoBehaviour:
     - smartQuote:
         quote: Umm...
         animation: 2
-        voiceClip: 0
+        voiceClip: 4
         actor: 1
         type: 0
         effect: 0
@@ -5865,7 +5866,7 @@ MonoBehaviour:
     - smartQuote:
         quote: Hrmmm...
         animation: 1
-        voiceClip: 0
+        voiceClip: 2
         actor: 1
         type: 0
         effect: 0
@@ -5888,7 +5889,7 @@ MonoBehaviour:
     - smartQuote:
         quote: '...'
         animation: 4
-        voiceClip: 0
+        voiceClip: 13
         actor: 1
         type: 0
         effect: 0
@@ -5934,7 +5935,7 @@ MonoBehaviour:
     - smartQuote:
         quote: I- We- Me- Them- Us-
         animation: 2
-        voiceClip: 0
+        voiceClip: 3
         actor: 1
         type: 0
         effect: 0
@@ -5957,7 +5958,7 @@ MonoBehaviour:
     - smartQuote:
         quote: EVERYTHING IS THOSE DAMNED OSCANIANS FAULT!!!
         animation: 5
-        voiceClip: 0
+        voiceClip: 2
         actor: 1
         type: 0
         effect: 1
@@ -5981,7 +5982,7 @@ MonoBehaviour:
         quote: IF IT WASN'T FOR THEM I WOULD'VE WON THIS ELECTION BY NOW! I BET THEY
           RIGGED IT!
         animation: 5
-        voiceClip: 0
+        voiceClip: 2
         actor: 1
         type: 0
         effect: 1
@@ -6004,7 +6005,7 @@ MonoBehaviour:
     - smartQuote:
         quote: THEY WILL NEVER STOP RUINING US IF YOU DON'T VOTE FOR ME!!!
         animation: 5
-        voiceClip: 0
+        voiceClip: 2
         actor: 1
         type: 0
         effect: 1
@@ -6027,7 +6028,7 @@ MonoBehaviour:
     - smartQuote:
         quote: I NEED TO WIN THIS!!! I NEED TO STOP THE THIEVES!!!
         animation: 5
-        voiceClip: 0
+        voiceClip: 2
         actor: 1
         type: 0
         effect: 0
@@ -6050,7 +6051,7 @@ MonoBehaviour:
     - smartQuote:
         quote: We need to...
         animation: 2
-        voiceClip: 0
+        voiceClip: 10
         actor: 1
         type: 0
         effect: 1
@@ -6073,7 +6074,7 @@ MonoBehaviour:
     - smartQuote:
         quote: Hrrrrrrrnnnnnnnnnnnnnnnnnnnnnnn...
         animation: 6
-        voiceClip: 0
+        voiceClip: 12
         actor: 1
         type: 0
         effect: 0
@@ -6122,7 +6123,7 @@ MonoBehaviour:
     - smartQuote:
         quote: But... wait... No...
         animation: 0
-        voiceClip: 0
+        voiceClip: 1
         actor: 0
         type: 0
         effect: 0
@@ -6168,7 +6169,7 @@ MonoBehaviour:
     - smartQuote:
         quote: Be quiet! I-I need a new headline.
         animation: 1
-        voiceClip: 0
+        voiceClip: 4
         actor: 0
         type: 0
         effect: 0
@@ -6214,7 +6215,7 @@ MonoBehaviour:
     - smartQuote:
         quote: '"POLITICAL EXPERT DISSMISSES REPORTER: DICTATORSHIP IS NEAR"'
         animation: 3
-        voiceClip: 0
+        voiceClip: 10
         actor: 0
         type: 0
         effect: 1
@@ -6237,7 +6238,7 @@ MonoBehaviour:
     - smartQuote:
         quote: What the hell?
         animation: 1
-        voiceClip: 0
+        voiceClip: 11
         actor: 1
         type: 0
         effect: 0
@@ -6261,7 +6262,7 @@ MonoBehaviour:
         quote: '"PRESIDENTIAL CANDIDATE CAN''T CONTROL WHAT HE SAYS: WHERE IS THE
           WORLD HEADED?"'
         animation: 3
-        voiceClip: 0
+        voiceClip: 11
         actor: 0
         type: 0
         effect: 1
@@ -6307,7 +6308,7 @@ MonoBehaviour:
     - smartQuote:
         quote: What's with that face he's making?
         animation: 2
-        voiceClip: 0
+        voiceClip: 10
         actor: 1
         type: 0
         effect: 0
@@ -6331,7 +6332,7 @@ MonoBehaviour:
         quote: '"SLIMY FROG IN PRESIDENTIAL RACE-IST: CAN''T STAND HIS OPPONENT''S
           FACE"'
         animation: 3
-        voiceClip: 0
+        voiceClip: 10
         actor: 0
         type: 0
         effect: 1
@@ -6354,7 +6355,7 @@ MonoBehaviour:
     - smartQuote:
         quote: Chairman I'm scared...
         animation: 2
-        voiceClip: 0
+        voiceClip: 11
         actor: 1
         type: 0
         effect: 0
@@ -6401,7 +6402,7 @@ MonoBehaviour:
         quote: '"GOVERNMENT OFFICIAL CLAIMS NEW CADIDATE IS INSANE, YOU WONT BELIEVE
           WHAT HAPPENS NEXT..."'
         animation: 3
-        voiceClip: 0
+        voiceClip: 10
         actor: 0
         type: 0
         effect: 1
@@ -6447,7 +6448,7 @@ MonoBehaviour:
     - smartQuote:
         quote: '*COUGH*'
         animation: 4
-        voiceClip: 0
+        voiceClip: 11
         actor: 0
         type: 0
         effect: 1
