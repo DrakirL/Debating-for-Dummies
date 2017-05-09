@@ -310,14 +310,14 @@ public class BasePolitician : Animator
             if (reputation <= 0 || sanity <= 0)
             {
                 //enable breakdown
-                speaker.Stop();
+                speaker.pitch = 1.1f;
                 ChooseDialogue(Breakdown);
             }
 
             else if (player.playerrep <= 0 || player.playersan <= 0)
             {
                 //enable player breakdown
-                speaker.Stop();
+                speaker.pitch = 0.9f;
                 ChooseDialogue(PlayerBreakdown);
             }
 

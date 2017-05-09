@@ -16,7 +16,26 @@ public class Player : Animator
         {
             playersan = PlayerPrefs.GetInt("Sanity");
             playerrep = PlayerPrefs.GetInt("Reputation");
+        }
 
+        else
+        {
+            playerrep = 50;
+            playersan = 50;
+        }
+    }
+
+	//Happens after the debate
+	public void AfterDebate ()
+	{
+        if (playersan <= 0 || playerrep <= 0)
+        {
+            playerrep = 50;
+            playersan = 50;
+        }
+
+        else
+        {
             playersan += 20;
 
             if (playersan > 75)
@@ -32,16 +51,6 @@ public class Player : Animator
             }
         }
 
-        else
-        {
-            playerrep = 50;
-            playersan = 50;
-        }
-    }
-
-	//Happens after the debate
-	public void AfterDebate ()
-	{
 		//saves the game
 		PlayerPrefs.SetInt ("Sanity", playersan);
 		PlayerPrefs.SetInt ("Reputation", playerrep);
