@@ -7,37 +7,23 @@ public class PlayerMenu : MonoBehaviour
     public void ResearchOpposition()
     {
         PlayerPrefs.SetInt("SubjectOrOpposition", 1);
-        SceneManager.LoadScene("Debate");
+        Begin();
     }
 
     public void ResearchSubject()
     {
         PlayerPrefs.SetInt("SubjectOrOpposition", 0);
-        SceneManager.LoadScene("Debate");
+		Begin();
     }
 
-    public void TakeBreak()
+    public void HundredPercent()
     {
-        int sanity = PlayerPrefs.GetInt("Sanity");
+    	PlayerPrefs.SetInt("Sanity", 100);
+    	PlayerPrefs.SetInt("Reputation", 100);
+    }
 
-        if (sanity < 50)
-        {
-            PlayerPrefs.SetInt("Sanity", 50);
-        }
-
-        else
-        {
-            sanity += 12;
-
-            if (sanity > 75)
-            {
-                sanity = 75;
-            }
-
-            PlayerPrefs.SetInt("Sanity", sanity);
-        }
-
-        PlayerPrefs.SetInt("SubjectOrOpposition", -1);
+    public void Back()
+    {
         SceneManager.LoadScene("Menu");
     }
 
@@ -48,7 +34,6 @@ public class PlayerMenu : MonoBehaviour
 
     public void Begin()
     {
-        PlayerPrefs.SetInt("SubjectOrOpposition", 7);
         SceneManager.LoadScene("Debate");
     }
 
@@ -56,5 +41,6 @@ public class PlayerMenu : MonoBehaviour
     {
         PlayerPrefs.SetInt("Sanity", 50);
         PlayerPrefs.SetInt("Reputation", 50);
+        PlayerPrefs.SetInt("SubjectOrOpposition", -5);
     }
 }

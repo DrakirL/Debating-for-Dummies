@@ -6071,7 +6071,7 @@ MonoBehaviour:
               sanityLimit: 0
             - smartQuote:
                 quote: WHAT DID YOU JUST SAY 'BOUT ME!
-                animation: 0
+                animation: 1
                 voiceClip: 11
                 actor: 1
                 type: 0
@@ -6093,6 +6093,111 @@ MonoBehaviour:
                 repChange: -1
               sanityLimit: 50
             - smartQuote:
+                quote: Your standars are actually low enough for you to throw around
+                  accusations like that!?
+                animation: 1
+                voiceClip: 11
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -3
+                yourRepChange: -2
+                sanChange: 2
+                repChange: -2
+              dumbQuote:
+                quote: Have you really stooped low enough to throw around accusations!?
+                animation: 1
+                voiceClip: 10
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -2
+                yourRepChange: -1
+                sanChange: -2
+                repChange: -2
+              sanityLimit: 50
+            - smartQuote:
+                quote: DURING A POLITICAL DEBATE NO LESS!!!
+                animation: 1
+                voiceClip: 10
+                actor: 1
+                type: 1
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 3
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: EMRICA! Is this smack talking and truth bending face hider
+                  really who you want to take control over our nation!?
+                animation: 3
+                voiceClip: 7
+                actor: 1
+                type: 1
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 4
+                repChange: 1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Look who's talking...
+                animation: 2
+                voiceClip: 5
+                actor: 0
+                type: 2
+                effect: 0
+                yourSanChange: 3
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: Well, look who's talking!
+                animation: 1
+                voiceClip: 4
+                actor: 0
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 50
+            - smartQuote:
+                quote: Well alright then, let's give you a chance to redeem yourself.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 3
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
                 quote: 
                 animation: 0
                 voiceClip: 0
@@ -6100,6 +6205,441 @@ MonoBehaviour:
                 type: 0
                 effect: 0
                 yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Your claim is that reducing immigration would somehow increase
+                  economic growth, correct?
+                animation: 0
+                voiceClip: 5
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: -1
+                repChange: -2
+              dumbQuote:
+                quote: "You\u2019re claiming that reducing immigration will reduce
+                  the amount of poor people, correct?"
+                animation: 1
+                voiceClip: 4
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -1
+              sanityLimit: 50
+            - smartQuote:
+                quote: Of course it will, it's not rocket scinece. Fewer beggars mean
+                  richer average.
+                animation: 0
+                voiceClip: 8
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -1
+                sanChange: 2
+                repChange: -3
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Well, I don't believe that's what would happen.
+                animation: 2
+                voiceClip: 2
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: -1
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Have any studies shown that fewer people is better for a society?
+                animation: 0
+                voiceClip: 9
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 1
+                sanChange: -1
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: You're the owner of a news channel among other things, so it
+                  shouldn't be too hard for you to find a reliable source.
+                animation: 0
+                voiceClip: 1
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 1
+                sanChange: -2
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: '......'
+                animation: 4
+                voiceClip: 13
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 2
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Riiiiiiiiiight?
+                animation: 2
+                voiceClip: 5
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 0
+                sanChange: -2
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Well of cooooouuuuuuuurse, Bagface.
+                animation: 3
+                voiceClip: 7
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 0
+                sanChange: 2
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Did you say something?
+                animation: 1
+                voiceClip: 7
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: 0
+                sanChange: -1
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: As the CEO of Facts And Cash news, I have indeed read numerous
+                  reports that support my claims.
+                animation: 0
+                voiceClip: 8
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -1
+                sanChange: 2
+                repChange: 2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Which reports?
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 1
+                sanChange: -1
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: That's... Classified.
+                animation: 2
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Which of your claims do they actually support?
+                animation: 2
+                voiceClip: 1
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 1
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: That's... Also Classified...
+                animation: 2
+                voiceClip: 4
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 1
+                sanChange: 0
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "Mr. Datbouje, you don\u2019t seem to be very prepared for
+                  this debate."
+                animation: 0
+                voiceClip: 1
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "So if you don\u2019t mind, I\u2019d like to hear Mr. Baggington
+                  summarize his ideas now."
+                animation: 0
+                voiceClip: 2
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: '...Very well...'
+                animation: 0
+                voiceClip: 2
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: 0
+                sanChange: 1
+                repChange: 0
+              dumbQuote:
+                quote: '...Very well then... Uhm...'
+                animation: 0
+                voiceClip: 1
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: -1
+                sanChange: 2
+                repChange: 0
+              sanityLimit: 30
+            - smartQuote:
+                quote: We should prioritize making decent education available to EVERYONE
+                  who's going to live here.
+                animation: 0
+                voiceClip: 3
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 1
+                sanChange: -1
+                repChange: 0
+              dumbQuote:
+                quote: I think that we should prioritize making decent education available
+                  to ALL who are going to live here.
+                animation: 0
+                voiceClip: 1
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 1
+                sanChange: 1
+                repChange: 0
+              sanityLimit: 40
+            - smartQuote:
+                quote: A lot of educated people lead to a lot of jobs taken.
+                animation: 0
+                voiceClip: 9
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
                 yourRepChange: 0
                 sanChange: 0
                 repChange: 0
@@ -6116,13 +6656,13 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 0
             - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
+                quote: But... Preserve Emrica...
+                animation: 2
+                voiceClip: 4
+                actor: 1
                 type: 0
                 effect: 0
-                yourSanChange: 0
+                yourSanChange: -2
                 yourRepChange: 0
                 sanChange: 0
                 repChange: 0
@@ -6130,7 +6670,7 @@ MonoBehaviour:
                 quote: 
                 animation: 0
                 voiceClip: 0
-                actor: 0
+                actor: 1
                 type: 0
                 effect: 0
                 yourSanChange: 0
@@ -6139,21 +6679,21 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 0
             - smartQuote:
-                quote: 
+                quote: Thanks for letting us hear your summarization as well mr. Datbouje.
                 animation: 0
                 voiceClip: 0
-                actor: 0
+                actor: 2
                 type: 0
                 effect: 0
                 yourSanChange: 0
                 yourRepChange: 0
-                sanChange: 0
-                repChange: 0
+                sanChange: -2
+                repChange: -2
               dumbQuote:
                 quote: 
                 animation: 0
                 voiceClip: 0
-                actor: 0
+                actor: 2
                 type: 0
                 effect: 0
                 yourSanChange: 0
@@ -6162,10 +6702,10 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 0
             - smartQuote:
-                quote: 
+                quote: We may be forced to return to this subject on another occation.
                 animation: 0
                 voiceClip: 0
-                actor: 0
+                actor: 2
                 type: 0
                 effect: 0
                 yourSanChange: 0
@@ -6176,7 +6716,7 @@ MonoBehaviour:
                 quote: 
                 animation: 0
                 voiceClip: 0
-                actor: 0
+                actor: 2
                 type: 0
                 effect: 0
                 yourSanChange: 0
@@ -6185,10 +6725,11 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 0
             - smartQuote:
-                quote: 
+                quote: But as it stands, we're way past our scheduled time, so this
+                  debate is over.
                 animation: 0
                 voiceClip: 0
-                actor: 0
+                actor: 2
                 type: 0
                 effect: 0
                 yourSanChange: 0
@@ -6199,283 +6740,7 @@ MonoBehaviour:
                 quote: 
                 animation: 0
                 voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              sanityLimit: 0
-            - smartQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
-                type: 0
-                effect: 0
-                yourSanChange: 0
-                yourRepChange: 0
-                sanChange: 0
-                repChange: 0
-              dumbQuote:
-                quote: 
-                animation: 0
-                voiceClip: 0
-                actor: 0
+                actor: 2
                 type: 0
                 effect: 0
                 yourSanChange: 0
@@ -6487,7 +6752,668 @@ MonoBehaviour:
         - name: No, sorry. Let's return to business.
           accessLevel: 0
           Path:
-            Phrases: []
+            Phrases:
+            - smartQuote:
+                quote: I apologize for my outburst.
+                animation: 0
+                voiceClip: 1
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: -2
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: I'm so sorry, please excuse my outburst.
+                animation: 0
+                voiceClip: 1
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: -3
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 50
+            - smartQuote:
+                quote: I simply noticed a few discrepancis between Datbouje's statements
+                  and reality, it's my background as a reporter.
+                animation: 0
+                voiceClip: 5
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 1
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: I was simply critical towards using Datbouje as a source and
+                  got carried away. my bad.
+                animation: 0
+                voiceClip: 5
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: -1
+                repChange: -1
+              sanityLimit: 60
+            - smartQuote:
+                quote: Let's return to the subject, shall we? We need more jobs
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 1
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We need less poor people!
+                animation: 3
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -4
+                yourRepChange: 0
+                sanChange: 4
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: I guess we aren't returning to subject.
+                animation: 2
+                voiceClip: 5
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 1
+                sanChange: 0
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "I don\u2019t understand why I keep having to repeat this simple
+                  fact. Removing the poor, increases the percentage of wealthy!"
+                animation: 1
+                voiceClip: 6
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: -1
+                sanChange: 0
+                repChange: 2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We are *THIS* close to reaching the point where not a single
+                  Emrican is homeless but we just HAVE to count all outsiders as well.
+                animation: 5
+                voiceClip: 3
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: That is not even remotely close to how the world works!
+                animation: 1
+                voiceClip: 6
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 1
+                sanChange: -3
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "If we instead convert poor people to well educated citizens
+                  with jobs, we\u2019d be wealthier than we could ever get by sweeping
+                  the issue under the rug for someone else to take care of."
+                animation: 1
+                voiceClip: 9
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 2
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "It doesn\u2019t matter how the world works when you plan to
+                  change it for the better!"
+                animation: 3
+                voiceClip: 8
+                actor: 0
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 4
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "All we need to do is to get rid of the extra load we don\u2019t
+                  need, and isn\u2019t even ours that matter."
+                animation: 0
+                voiceClip: 9
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: -1
+                sanChange: 2
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: You speak like they are alien invadors rather than foreigners.
+                animation: 1
+                voiceClip: 4
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: And YOU speak like you're capable of running the entire world
+                  yourself!
+                animation: 1
+                voiceClip: 2
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -3
+                yourRepChange: -2
+                sanChange: 2
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: You did exactly that just 4 texboxes ago!
+                animation: 1
+                voiceClip: 6
+                actor: 0
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "SIRS! Please, you\u2019ve been at each other's throats for
+                  long enough. This cannot go on."
+                animation: 0
+                voiceClip: 4
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: -2
+                sanChange: 0
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Would you mind telling us what you would do if you were to
+                  be elected, rather than telling each other that neither of you are
+                  qualified?
+                animation: 0
+                voiceClip: 3
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: -2
+                sanChange: 0
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: When I am elected, I will, possibly within the first hours,
+                  remove those 0.5% completely!
+                animation: 3
+                voiceClip: 7
+                actor: 1
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 4
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Yeah, by kicking them out the door...
+                animation: 2
+                voiceClip: 9
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 2
+                sanChange: -2
+                repChange: -3
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: If I am elected, I will make sure that we can sustain ourselves
+                  so well for so long that we can take care of our neighbours as well.
+                animation: 0
+                voiceClip: 2
+                actor: 0
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 2
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "Just listen to this fool Emrica. He wants to put our future
+                  in our problem\u2019s hands!"
+                animation: 3
+                voiceClip: 9
+                actor: 1
+                type: 1
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "What we need to do, is to clear our streets from those who
+                  aren\u2019t of use!"
+                animation: 1
+                voiceClip: 1
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -5
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -3
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: You are a heartless moron! We need to support the people of
+                  our country, not the piece of land itself!
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 1
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 2
+                repChange: 2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We need to improve our schools!
+                animation: 1
+                voiceClip: 5
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: WE NEED FEWER BOTTOMFEEDERS!
+                animation: 1
+                voiceClip: 6
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We need better education!
+                animation: 1
+                voiceClip: 6
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: LESS POOR PEOPLE!
+                animation: 1
+                voiceClip: 2
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: MORE JOBS!
+                animation: 1
+                voiceClip: 6
+                actor: 0
+                type: 0
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: STOP RECORDING!
+                animation: 0
+                voiceClip: 4
+                actor: 2
+                type: 0
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
             Responses: []
     - name: Supporting statistics please.
       accessLevel: 1
