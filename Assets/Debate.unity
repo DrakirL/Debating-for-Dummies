@@ -1876,7 +1876,7 @@ MonoBehaviour:
             quote: You talk like you prefer the people of Emrica over other countries.
               Your views aren't discriminatory, are they?
             animation: 1
-            voiceClip: 0
+            voiceClip: 7
             actor: 0
             type: 0
             effect: 0
@@ -1888,7 +1888,7 @@ MonoBehaviour:
             quote: Why do you think we Emricans are so much better than our neighbours?
               Are you a racist or what?
             animation: 1
-            voiceClip: 0
+            voiceClip: 4
             actor: 0
             type: 0
             effect: 0
@@ -1900,7 +1900,7 @@ MonoBehaviour:
         - smartQuote:
             quote: PAH!!! Nonsense!
             animation: 1
-            voiceClip: 0
+            voiceClip: 11
             actor: 1
             type: 0
             effect: 1
@@ -1911,7 +1911,7 @@ MonoBehaviour:
           dumbQuote:
             quote: Yes... Wait...
             animation: 0
-            voiceClip: 0
+            voiceClip: 5
             actor: 1
             type: 0
             effect: 0
@@ -1923,7 +1923,7 @@ MonoBehaviour:
         - smartQuote:
             quote: You think I got this far by hating Oscanians?
             animation: 1
-            voiceClip: 0
+            voiceClip: 1
             actor: 1
             type: 0
             effect: 0
@@ -1934,7 +1934,7 @@ MonoBehaviour:
           dumbQuote:
             quote: NO NO NO I MEANT, NO!
             animation: 2
-            voiceClip: 0
+            voiceClip: 12
             actor: 1
             type: 0
             effect: 0
@@ -1947,7 +1947,7 @@ MonoBehaviour:
             quote: I'm stating the FACT that resources spent on non-citizens won't
               support our country!
             animation: 0
-            voiceClip: 0
+            voiceClip: 5
             actor: 1
             type: 0
             effect: 0
@@ -1959,7 +1959,7 @@ MonoBehaviour:
             quote: "I am merely stating that we shouldn\u2019t waste resources on
               those who doesn\u2019t even live here."
             animation: 2
-            voiceClip: 0
+            voiceClip: 11
             actor: 1
             type: 0
             effect: 0
@@ -1972,7 +1972,7 @@ MonoBehaviour:
             quote: Then how exactly would a stricter border security cause economic
               growth?
             animation: 2
-            voiceClip: 0
+            voiceClip: 5
             actor: 0
             type: 0
             effect: 0
@@ -1981,10 +1981,10 @@ MonoBehaviour:
             sanChange: -1
             repChange: -1
           dumbQuote:
-            quote: "Then how is a harsher toll going to help \u201Cus Emricans\u201D
-              become richer?"
+            quote: "How is a harsher toll supposed to help \u201Cus Emricans\u201D
+              become richer then?"
             animation: 1
-            voiceClip: 0
+            voiceClip: 4
             actor: 0
             type: 0
             effect: 0
@@ -1997,7 +1997,7 @@ MonoBehaviour:
             quote: It will stop the rapid increase of poor people accounted for when
               we check for statistics...
             animation: 2
-            voiceClip: 0
+            voiceClip: 8
             actor: 1
             type: 0
             effect: 0
@@ -2023,7 +2023,7 @@ MonoBehaviour:
             quote: A VOTE FOR ME IS A VOTE AGAINST POVERTY AND FOR A RICHER EMRICAN
               FUTURE!
             animation: 3
-            voiceClip: 0
+            voiceClip: 7
             actor: 1
             type: 2
             effect: 1
@@ -2046,7 +2046,7 @@ MonoBehaviour:
         - smartQuote:
             quote: '...Aren''t those the same thing?'
             animation: 2
-            voiceClip: 0
+            voiceClip: 7
             actor: 0
             type: 0
             effect: 0
@@ -2069,7 +2069,7 @@ MonoBehaviour:
         - smartQuote:
             quote: THAT MEANS I'M TWICE AS RIGHT!
             animation: 1
-            voiceClip: 0
+            voiceClip: 11
             actor: 1
             type: 2
             effect: 1
@@ -2132,7 +2132,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: We could... um... Reduce the taxes?
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -2145,7 +2145,7 @@ MonoBehaviour:
                 quote: Increasing the benefits of being on the market should be enough
                   motivation to increase employment rate.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -2158,7 +2158,7 @@ MonoBehaviour:
                   amount of people getting and creating jobs should increase by a
                   lot.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -2171,7 +2171,7 @@ MonoBehaviour:
                 quote: "I, too, am a fan of the tax cutting idea, it\u2019s nice to
                   hear your say something smart for a change."
                 animation: 0
-                voiceClip: 0
+                voiceClip: 9
                 actor: 1
                 type: 1
                 effect: 0
@@ -2183,7 +2183,7 @@ MonoBehaviour:
                 quote: I am for that idea as well. I can confirm that it IS nicer
                   to work when the taxes are smaller.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 8
                 actor: 1
                 type: 0
                 effect: 0
@@ -2221,7 +2221,7 @@ MonoBehaviour:
                   will make people more eager to get a job. How can that not help
                   the economy?
                 animation: 1
-                voiceClip: 0
+                voiceClip: 9
                 actor: 0
                 type: 0
                 effect: 0
@@ -2233,7 +2233,7 @@ MonoBehaviour:
                 quote: "But I\u2019ve already said that it\u2019ll make people want
                   to start new businesses, which absolutely will create new jobs."
                 animation: 1
-                voiceClip: 0
+                voiceClip: 9
                 actor: 0
                 type: 0
                 effect: 0
@@ -2245,7 +2245,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: I don't see how that'll make the immigrants any more qualified!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -2257,7 +2257,7 @@ MonoBehaviour:
                 quote: "But I\u2019VE already said that that doesn\u2019t make those
                   job thieves any more qualified!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -2270,7 +2270,7 @@ MonoBehaviour:
                 quote: You seem to think that their lack of education is a big problem.
                   Is there anything preventing us from solving it?
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -2282,7 +2282,7 @@ MonoBehaviour:
                 quote: "If you truly think that the immigrants are unqualified for
                   our jobs, why don\u2019t we simply qualify them?"
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -2295,7 +2295,7 @@ MonoBehaviour:
                 quote: The way to a better job market is dependant on how well educated
                   the population is. That includes the foreignborn.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -2307,7 +2307,7 @@ MonoBehaviour:
                 quote: To improve our job situation we should focus on making our
                   education system better and available to EVERYONE who lives here.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -2344,7 +2344,7 @@ MonoBehaviour:
                 quote: Except that there are way too many uneducated immigrants for
                   us to handle!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 3
                 actor: 1
                 type: 0
                 effect: 0
@@ -2355,7 +2355,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: "Except that we\u2019d still be DROWNING in uneducated Oscanians!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 4
                 actor: 1
                 type: 0
                 effect: 0
@@ -2368,7 +2368,7 @@ MonoBehaviour:
                 quote: "We shouldn't have to pay the job thieves\u2019 school fee
                   just because they happen to be here at the moment."
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -2380,7 +2380,7 @@ MonoBehaviour:
                 quote: "We don\u2019t need to pay the job thieves\u2019 school fee
                   just because they happen to be here at the moment."
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -2394,7 +2394,7 @@ MonoBehaviour:
                   manpower, when we can keep them out and focus on our own, guaranteed
                   manpower.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -2406,7 +2406,7 @@ MonoBehaviour:
                 quote: There is no reason for us to spend money on potential manpower
                   when have our own.
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -2419,7 +2419,7 @@ MonoBehaviour:
                 quote: What makes you think that they are worse students because were
                   born elsewhere?
                 animation: 0
-                voiceClip: 0
+                voiceClip: 6
                 actor: 0
                 type: 0
                 effect: 0
@@ -2431,7 +2431,7 @@ MonoBehaviour:
                 quote: "The fact that they\u2019ve immigrated here doesn\u2019t make
                   them worse students than the ones born here in Emrica."
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 0
                 type: 0
                 effect: 0
@@ -2445,7 +2445,7 @@ MonoBehaviour:
                   wanting to work sound like a pretty good thing to have for our economy
                   AND our education?"
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -2457,7 +2457,7 @@ MonoBehaviour:
                 quote: An unlimited supply of manpower willing to work and get educated
                   sounds pretty good to me.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -2471,7 +2471,7 @@ MonoBehaviour:
                   a refugee. How the hell could we possibly teach THEM ALL to become
                   professional workers!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -2484,7 +2484,7 @@ MonoBehaviour:
                   understand a lick of english! It\u2019s painful enough to communicate,
                   so how the hell are we going to TEACH them to a higher degree?!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 2
                 actor: 1
                 type: 0
                 effect: 1
@@ -2497,7 +2497,7 @@ MonoBehaviour:
                 quote: "WHY SHOULD WE SPEND TIME AND MONEY ON TEACHING PEOPLE WHO
                   CAN\u2019T EVEN UNDERSTAND US!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 1
                 effect: 0
@@ -2521,7 +2521,7 @@ MonoBehaviour:
                 quote: "WE ARE PROUD, SELF SUPPORTING EMRICANS AND WE DON\u2019T NEED
                   OUTSIDERS TO COME HERE AND WASTE OUR TIME AND RESOURCES!"
                 animation: 3
-                voiceClip: 0
+                voiceClip: 7
                 actor: 1
                 type: 2
                 effect: 1
@@ -2546,7 +2546,7 @@ MonoBehaviour:
                   manpower is worth the extra responsibility for our english teachers.
                   Overreaction much?"
                 animation: 0
-                voiceClip: 0
+                voiceClip: 5
                 actor: 0
                 type: 0
                 effect: 0
@@ -2558,7 +2558,7 @@ MonoBehaviour:
                 quote: I'm pretty sure that most english teachers won't mind the extra
                   responibility. You don't have to overreact...
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -2571,7 +2571,7 @@ MonoBehaviour:
                 quote: "Well I\u2019D dare say that this plan of yours will fail spectacularly
                   at the first lecture."
                 animation: 1
-                voiceClip: 0
+                voiceClip: 3
                 actor: 1
                 type: 0
                 effect: 0
@@ -2582,7 +2582,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: But that plan WILL NOT WORK! I JUST KNOW IT!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -2595,7 +2595,7 @@ MonoBehaviour:
                 quote: EMRICA NEEDS ITS INDEPENDENCE! WE SHOULD NOT RELY ON ANOTHER
                   COUNTRY TO LEND US ITS MANPOWER!
                 animation: 3
-                voiceClip: 0
+                voiceClip: 7
                 actor: 1
                 type: 2
                 effect: 1
@@ -2619,7 +2619,7 @@ MonoBehaviour:
                 quote: "I only said that we should use all resources we\u2019ve been
                   given."
                 animation: 2
-                voiceClip: 0
+                voiceClip: 6
                 actor: 0
                 type: 0
                 effect: 0
@@ -2643,7 +2643,7 @@ MonoBehaviour:
                 quote: "And I only said that it\u2019ll do nothing but lose us money
                   and time!"
                 animation: 0
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -5792,7 +5792,7 @@ MonoBehaviour:
     - smartQuote:
         quote: Did you wish to add something, Mr Datbouje?
         animation: 0
-        voiceClip: 0
+        voiceClip: 3
         actor: 2
         type: 0
         effect: 0
@@ -5907,7 +5907,7 @@ MonoBehaviour:
     - smartQuote:
         quote: "Pep\xE9? Are you alright?"
         animation: 0
-        voiceClip: 0
+        voiceClip: 3
         actor: 2
         type: 0
         effect: 0
@@ -6023,7 +6023,7 @@ MonoBehaviour:
     - smartQuote:
         quote: I NEED TO WIN THIS!!! I NEED TO STOP THE THIEVES!!!
         animation: 5
-        voiceClip: 3
+        voiceClip: 11
         actor: 1
         type: 0
         effect: 0
@@ -6092,7 +6092,7 @@ MonoBehaviour:
     - smartQuote:
         quote: What the- Stop the camera!
         animation: 0
-        voiceClip: 0
+        voiceClip: 4
         actor: 2
         type: 0
         effect: 0
@@ -6187,7 +6187,7 @@ MonoBehaviour:
     - smartQuote:
         quote: A what? Mr. Baggington this is not the time for-
         animation: 0
-        voiceClip: 0
+        voiceClip: 1
         actor: 2
         type: 0
         effect: 0
@@ -6280,7 +6280,7 @@ MonoBehaviour:
     - smartQuote:
         quote: Baggington, would you mind stopping the namecalling?
         animation: 0
-        voiceClip: 0
+        voiceClip: 1
         actor: 2
         type: 0
         effect: 0
@@ -6373,7 +6373,7 @@ MonoBehaviour:
     - smartQuote:
         quote: Baggington, do you need help of some kind?
         animation: 0
-        voiceClip: 0
+        voiceClip: 3
         actor: 2
         type: 0
         effect: 0
@@ -6420,7 +6420,7 @@ MonoBehaviour:
     - smartQuote:
         quote: BAGGINGTON!
         animation: 0
-        voiceClip: 0
+        voiceClip: 4
         actor: 2
         type: 0
         effect: 1
@@ -6466,7 +6466,7 @@ MonoBehaviour:
     - smartQuote:
         quote: Shut off the camera!
         animation: 0
-        voiceClip: 0
+        voiceClip: 4
         actor: 2
         type: 0
         effect: 1
@@ -6729,7 +6729,11 @@ MonoBehaviour:
     fps: 15
     shouldLoop: 0
   chairSounds:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: d2cdb20d69aa3544a986b4cc5e9a5765, type: 3}
+  - {fileID: 8300000, guid: 75252929c8a87e34bb001a3e8fcb6a5a, type: 3}
+  - {fileID: 8300000, guid: 52caf0bc50a515848815aabc1029ff0b, type: 3}
+  - {fileID: 8300000, guid: c44f30be37510a74799e5940b6593b45, type: 3}
+  - {fileID: 8300000, guid: adb80f29962e71f4cb61e321f3e140a4, type: 3}
 --- !u!212 &1373938337
 SpriteRenderer:
   m_ObjectHideFlags: 0
