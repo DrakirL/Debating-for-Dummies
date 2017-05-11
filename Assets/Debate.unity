@@ -7418,8 +7418,1191 @@ MonoBehaviour:
     - name: Supporting statistics please.
       accessLevel: 1
       Path:
-        Phrases: []
-        Responses: []
+        Phrases:
+        - smartQuote:
+            quote: That sure is an... Interesting thought to bring up...
+            animation: 0
+            voiceClip: 8
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: -1
+            repChange: -1
+          dumbQuote:
+            quote: That sure is an... Interesting argument...
+            animation: 0
+            voiceClip: 8
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: -1
+            sanChange: -1
+            repChange: -1
+          sanityLimit: 50
+        - smartQuote:
+            quote: Do you actually have anything backing up your statements?
+            animation: 0
+            voiceClip: 9
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: -2
+            repChange: -2
+          dumbQuote:
+            quote: You don't happen to have anything that supports those statements,
+              do you?
+            animation: 0
+            voiceClip: 1
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: -2
+            repChange: -1
+          sanityLimit: 50
+        - smartQuote:
+            quote: Absolutely!
+            animation: 3
+            voiceClip: 7
+            actor: 1
+            type: 2
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: "As you may know, I have quite a few reporters working for me,
+              and they can confirm that we\u2019ve had WAY too many immigrants coming
+              here as of late."
+            animation: 0
+            voiceClip: 8
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -1
+            yourRepChange: 0
+            sanChange: -1
+            repChange: -1
+          dumbQuote:
+            quote: "We\u2019ve had WAY too many immigrants coming here as of late.
+              My employees agree with me on that."
+            animation: 0
+            voiceClip: 8
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -2
+            yourRepChange: 0
+            sanChange: 1
+            repChange: -2
+          sanityLimit: 37
+        - smartQuote:
+            quote: Ms. Alia Basileus, our so called president, has bitten off way
+              more than we workers can chew for her.
+            animation: 0
+            voiceClip: 9
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -1
+            yourRepChange: 0
+            sanChange: 2
+            repChange: 2
+          dumbQuote:
+            quote: So called president Alia Basileus has bitten of more than we workers
+              can chew.
+            animation: 0
+            voiceClip: 9
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: -2
+            yourRepChange: 0
+            sanChange: 2
+            repChange: 1
+          sanityLimit: 0
+        - smartQuote:
+            quote: WHEN I AM ELECTED, NOTHING OF THE SORT WILL EVER HAPPEN AGAIN!  THAT
+              I CAN ASSURE YOU!
+            animation: 3
+            voiceClip: 7
+            actor: 1
+            type: 2
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 4
+            repChange: 0
+          dumbQuote:
+            quote: I CAN ASSURE YOU THAT NOTHING OF THE SORT WILL EVER HAPPEN IF I
+              AM ELECTED!
+            animation: 3
+            voiceClip: 7
+            actor: 1
+            type: 2
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 2
+            repChange: 0
+          sanityLimit: 50
+        - smartQuote:
+            quote: I already know of president Basilius' policies. You have yet to
+              tell us what we don't know.
+            animation: 2
+            voiceClip: 9
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 1
+            yourRepChange: 1
+            sanChange: -2
+            repChange: -1
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 0
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: "You\u2019re making this sound like an interview\u2026"
+            animation: 1
+            voiceClip: 4
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: -1
+            sanChange: -1
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        - smartQuote:
+            quote: "Well I don\u2019t mind telling the world exactly how I\u2019ll
+              improve it."
+            animation: 3
+            voiceClip: 8
+            actor: 1
+            type: 2
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 3
+            repChange: 0
+          dumbQuote:
+            quote: "Well I don\u2019t mind telling everyone exactly how I\u2019ll
+              improve the world!"
+            animation: 0
+            voiceClip: 7
+            actor: 1
+            type: 2
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 1
+            repChange: 0
+          sanityLimit: 50
+        - smartQuote:
+            quote: What is it you wanted me to explain?
+            animation: 0
+            voiceClip: 9
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          dumbQuote:
+            quote: 
+            animation: 0
+            voiceClip: 0
+            actor: 1
+            type: 0
+            effect: 0
+            yourSanChange: 0
+            yourRepChange: 0
+            sanChange: 0
+            repChange: 0
+          sanityLimit: 0
+        Responses:
+        - name: Are most of the homeless really immigrants?
+          accessLevel: 0
+          Path:
+            Phrases:
+            - smartQuote:
+                quote: My reseach deduced that nationality plays very little role
+                  in enemployment. Are you sure about most beggars being immigrants?
+                animation: 1
+                voiceClip: 9
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 2
+                sanChange: -1
+                repChange: -3
+              dumbQuote:
+                quote: Are you absolutely certain that the majority of unemployed
+                  are immigrants?
+                animation: 1
+                voiceClip: 9
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -1
+              sanityLimit: 35
+            - smartQuote:
+                quote: Indeed I am. I can't even remember last time I saw a pure Emrican
+                  beggar.
+                animation: 0
+                voiceClip: 5
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 2
+                sanChange: 2
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: That's a pretty weak argument to use in a political debate.
+                  Don't you have a more reliable source?
+                animation: 2
+                voiceClip: 1
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 1
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: That's an unusual argument to use in an important debate. Do
+                  you have some sort of statistical support?
+                animation: 2
+                voiceClip: 1
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: -1
+                repChange: -1
+              sanityLimit: 40
+            - smartQuote:
+                quote: Well of course I do, there are plenty of studies that show
+                  this!
+                animation: 3
+                voiceClip: 8
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 1
+                repChange: 1
+              dumbQuote:
+                quote: Of course I do! There are plenty of studies that show this.
+                animation: 1
+                voiceClip: 1
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: -1
+                repChange: -1
+              sanityLimit: 50
+            - smartQuote:
+                quote: Really? Where can I find these studies?
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: -1
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: On the internet. Or more specificly...
+                animation: 0
+                voiceClip: 5
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: A RELIABLE SOURCE ON THE INTERNET!
+                animation: 3
+                voiceClip: 7
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: -3
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Really? That's one of my favorites too!
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 3
+                yourRepChange: -3
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "I use aRSotI a lot, but I can\u2019t recall seeing any articles
+                  like that on the site recently."
+                animation: 0
+                voiceClip: 1
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 0
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "Much like I can\u2019t recall seeing any pure Emrican beggars.
+                  They exist, they\u2019re just not very common."
+                animation: 0
+                voiceClip: 9
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: -1
+                sanChange: 2
+                repChange: 2
+              dumbQuote:
+                quote: "Much like I can\u2019t recall any non-non-Emrican beggars.
+                  They exist, they\u2019re just not very common."
+                animation: 0
+                voiceClip: 8
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -3
+                yourRepChange: -1
+                sanChange: 2
+                repChange: 1
+              sanityLimit: 50
+            - smartQuote:
+                quote: I- W-well...
+                animation: 0
+                voiceClip: 2
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -2
+                sanChange: 3
+                repChange: 1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "I\u2019m an honest amphibian, who indeed can be trusted with
+                  the responsibility of turning our economy around."
+                animation: 3
+                voiceClip: 8
+                actor: 1
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 0
+              dumbQuote:
+                quote: "See? I\u2019m an honest amphibian! I can be trusted with the
+                  responsibility of turning our economy around."
+                animation: 3
+                voiceClip: 7
+                actor: 1
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 45
+            - smartQuote:
+                quote: I don't say anything for no reason. If I say that most immigrants
+                  are homeless, I have my reasons to, you silly sack.
+                animation: 0
+                voiceClip: 9
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -3
+                sanChange: 3
+                repChange: 2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: '...But... That isn''t true...'
+                animation: 0
+                voiceClip: 8
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: What?
+                animation: 0
+                voiceClip: 1
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: You are referring to a source thant doesn't know the differance
+                  between "the immigrants are homeless" and "the homeless are immigrants"!
+                animation: 1
+                voiceClip: 6
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 3
+                sanChange: -3
+                repChange: -3
+              dumbQuote:
+                quote: Whatever source you're referring to can't differ between most
+                  the homeless being foreign and the foreigners being homeless!
+                animation: 1
+                voiceClip: 6
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 1
+                sanChange: -3
+                repChange: -1
+              sanityLimit: 33
+            - smartQuote:
+                quote: Stop rambling nonsense, you helped me confirm that most unemployed
+                  are immigrants! Get over it!
+                animation: 1
+                voiceClip: 11
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: -2
+                sanChange: -1
+                repChange: 1
+              dumbQuote:
+                quote: Stop rambling nonsense! you helped me confirm that most unemployed
+                  are immigrants! Get over it!
+                animation: 1
+                voiceClip: 11
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -2
+                yourRepChange: -2
+                sanChange: -2
+                repChange: 0
+              sanityLimit: 45
+            - smartQuote:
+                quote: The aRSotI has numerous articles that present the employment
+                  rate for the newly arrived. It is well over 75%.
+                animation: 0
+                voiceClip: 9
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 2
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
+                quote: The aRSotI has plenty of articles that show us the employment
+                  rate for the newly arrived and it is over 75%.
+                animation: 0
+                voiceClip: 9
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 1
+                sanChange: -2
+                repChange: -1
+              sanityLimit: 50
+            - smartQuote:
+                quote: "You claimed, in the same sentence, that most immigrants don\u2019t
+                  get employment and that you have a good reason to. Why?"
+                animation: 1
+                voiceClip: 10
+                actor: 0
+                type: 0
+                effect: 1
+                yourSanChange: 3
+                yourRepChange: 3
+                sanChange: -3
+                repChange: -3
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: That...
+                animation: 2
+                voiceClip: 10
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 2
+                sanChange: -2
+                repChange: -3
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "T-that doesn\u2019t change the fact that like 99% of beggars
+                  are immigrants!"
+                animation: 1
+                voiceClip: 2
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: -1
+                sanChange: 1
+                repChange: 1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: But what about the fact that only about 20% of foreignborn
+                  citizens are unemployed?
+                animation: 1
+                voiceClip: 4
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: You honestly think that 99% of all beggars, is covered by a
+                  mere fifth of a minority?
+                animation: 1
+                voiceClip: 9
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 2
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "And because of this theory of yours, you\u2019re willing to
+                  throw out a group consisting of almost 80% valid workers?"
+                animation: 1
+                voiceClip: 4
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 2
+                sanChange: -3
+                repChange: -3
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: STOP INVALIDATING MY ARGUMENTS WITH FACTS!
+                animation: 1
+                voiceClip: 10
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -3
+                yourRepChange: 3
+                sanChange: -3
+                repChange: -3
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "Mr. Baggington, we\u2019ve heard your opinion on Datbouje\u2019s
+                  ideas. Would you mind sharing your own idea as well?"
+                animation: 0
+                voiceClip: 2
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 2
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "Well, I think that we should keep president Basileus\u2019
+                  program alive since it is working as intended."
+                animation: 0
+                voiceClip: 2
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: -1
+                sanChange: -1
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We just need to reprioritize our budget to further support
+                  the education for both our own children, as well as all newly arrived.
+                animation: 0
+                voiceClip: 3
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 1
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: And WHERE exactly would this money come from, huh?
+                animation: 1
+                voiceClip: 6
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: -1
+                sanChange: 1
+                repChange: 1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: For example, Emrica has as many aircraft carriers as the rest
+                  of the world combined. A monetary shift from the military to our
+                  schools won't hurt...
+                animation: 0
+                voiceClip: 3
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: -1
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: WHAT!?
+                animation: 1
+                voiceClip: 11
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: '...Or we could consider increasing the taxes...'
+                animation: 0
+                voiceClip: 1
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: -2
+                sanChange: -3
+                repChange: 1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: '*CROAK*'
+                animation: 4
+                voiceClip: 10
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: I do believe that answers your question mr. Datbouje.
+                animation: 0
+                voiceClip: 1
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: -1
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: '.........'
+                animation: 4
+                voiceClip: 13
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 1
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "...And you don\u2019t seem too eager to continue either..."
+                animation: 0
+                voiceClip: 3
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Well, that is all the time we had for today. The press may
+                  ask their questions as the candidates make their way out.
+                animation: 0
+                voiceClip: 2
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "Make sure you don\u2019t miss tomorrow\u2019s debate between
+                  Justin Case and Jimmie Vole."
+                animation: 0
+                voiceClip: 1
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We may meet then, but this debate is over.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            Responses: []
+        - name: Just how bad is the average beggar really?
+          accessLevel: 0
+          Path:
+            Phrases: []
+            Responses: []
+        - name: Won't shutting people out just reduce manpower?
+          accessLevel: 0
+          Path:
+            Phrases: []
+            Responses: []
   Breakdown:
     Phrases:
     - smartQuote:
