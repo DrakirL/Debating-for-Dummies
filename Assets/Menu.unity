@@ -298,7 +298,8 @@ MonoBehaviour:
     on how you research, choose wisely.\r\n\nYour sanity and reputation will change
     depending on what you say and what the opponent says.\n \r\nThe debate is over
     when someone is out of sanity or reputation or when the chairman has had enough.\r\n\n\r\n\nGood
-    luck!\nRikard Larsson    Joanna Andersson     Fritz Molin"
+    luck!\nProgramming: Rikard Larsson & Fritz Molin. Art: Joanna Andersson. Music:
+    Samuel Hed\xE9n."
 --- !u!222 &194351500
 CanvasRenderer:
   m_ObjectHideFlags: 0

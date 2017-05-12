@@ -1533,7 +1533,7 @@ MonoBehaviour:
         quote: "Welcome to tonight's debate between Pep\xE9 Datbouje and Commoner
           Baggington. I\u2019ll be your host for the evening: Woody Chairman."
         animation: 0
-        voiceClip: 0
+        voiceClip: 2
         actor: 2
         type: 0
         effect: 0
@@ -1557,7 +1557,7 @@ MonoBehaviour:
         quote: According to recently measured statistics, about 0.5% of the Emrican
           population are homeless, the most common reason being unemployment.
         animation: 0
-        voiceClip: 0
+        voiceClip: 2
         actor: 2
         type: 0
         effect: 0
@@ -1580,7 +1580,7 @@ MonoBehaviour:
     - smartQuote:
         quote: How would you go about reducing it if you were to be elected?
         animation: 0
-        voiceClip: 0
+        voiceClip: 3
         actor: 2
         type: 0
         effect: 0
@@ -1824,7 +1824,7 @@ MonoBehaviour:
     - smartQuote:
         quote: "...Very well\u2026"
         animation: 0
-        voiceClip: 0
+        voiceClip: 1
         actor: 2
         type: 0
         effect: 0
@@ -2196,7 +2196,7 @@ MonoBehaviour:
                 quote: "But while increasing the wage is great and all, it won\u2019t
                   create new jobs OR make those job thieves more qualified."
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -2444,7 +2444,7 @@ MonoBehaviour:
                 quote: "Doesn\u2019t an unlimited supply of well educated immigrants
                   wanting to work sound like a pretty good thing to have for our economy
                   AND our education?"
-                animation: 0
+                animation: 2
                 voiceClip: 3
                 actor: 0
                 type: 0
@@ -2556,7 +2556,7 @@ MonoBehaviour:
                 repChange: -2
               dumbQuote:
                 quote: I'm pretty sure that most english teachers won't mind the extra
-                  responibility. You don't have to overreact...
+                  responsibility. You don't have to overreact...
                 animation: 0
                 voiceClip: 2
                 actor: 0
@@ -2667,7 +2667,7 @@ MonoBehaviour:
                 quote: Thank you gentlemen, you've made your opinions very clear,
                   but we are out of time.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 2
                 type: 0
                 effect: 0
@@ -2691,7 +2691,7 @@ MonoBehaviour:
                 quote: If the press has any questions for either party, they'll be
                   available on their way out.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 2
                 type: 0
                 effect: 0
@@ -2714,7 +2714,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: This debate is over.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 2
                 type: 0
                 effect: 0
@@ -2743,7 +2743,7 @@ MonoBehaviour:
                 quote: You seem to think that their lack of education is a big problem.
                   Is there anything preventing us from solving it?
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -2755,7 +2755,7 @@ MonoBehaviour:
                 quote: "If you truly think that the immigrants are unqualified for
                   our jobs, why don\u2019t we simply qualify them?"
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -2768,7 +2768,7 @@ MonoBehaviour:
                 quote: The way to a better job market is dependant on how well educated
                   the population is. That includes the foreignborn.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -2780,7 +2780,7 @@ MonoBehaviour:
                 quote: To improve our job situation we should focus on making our
                   education system better and available to EVERYONE who lives here.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -2817,7 +2817,7 @@ MonoBehaviour:
                 quote: Except that there are way too many uneducated immigrants for
                   us to handle!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 3
                 actor: 1
                 type: 0
                 effect: 0
@@ -2828,7 +2828,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: "Except that we\u2019d still be DROWNING in uneducated Oscanians!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 4
                 actor: 1
                 type: 0
                 effect: 0
@@ -2841,7 +2841,7 @@ MonoBehaviour:
                 quote: "We shouldn't have to pay the job thieves\u2019 school fee
                   just because they happen to be here at the moment."
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -2853,7 +2853,7 @@ MonoBehaviour:
                 quote: "We don\u2019t need to pay the job thieves\u2019 school fee
                   just because they happen to be here at the moment."
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -2867,7 +2867,7 @@ MonoBehaviour:
                   manpower, when we can keep them out and focus on our own, guaranteed
                   manpower.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -2879,7 +2879,7 @@ MonoBehaviour:
                 quote: There is no reason for us to spend money on potential manpower
                   when have our own.
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -2892,7 +2892,7 @@ MonoBehaviour:
                 quote: What makes you think that they are worse students because were
                   born elsewhere?
                 animation: 0
-                voiceClip: 0
+                voiceClip: 6
                 actor: 0
                 type: 0
                 effect: 0
@@ -2904,7 +2904,7 @@ MonoBehaviour:
                 quote: "The fact that they\u2019ve immigrated here doesn\u2019t make
                   them worse students than the ones born here in Emrica."
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 0
                 type: 0
                 effect: 0
@@ -2917,8 +2917,8 @@ MonoBehaviour:
                 quote: "Doesn\u2019t an unlimited supply of well educated immigrants
                   wanting to work sound like a pretty good thing to have for our economy
                   AND our education?"
-                animation: 0
-                voiceClip: 0
+                animation: 2
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -2930,7 +2930,7 @@ MonoBehaviour:
                 quote: An unlimited supply of manpower willing to work and get educated
                   sounds pretty good to me.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -2944,7 +2944,7 @@ MonoBehaviour:
                   a refugee. How the hell could we possibly teach THEM ALL to become
                   professional workers!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -2957,7 +2957,7 @@ MonoBehaviour:
                   understand a lick of english! It\u2019s painful enough to communicate,
                   so how the hell are we going to TEACH them to a higher degree?!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 2
                 actor: 1
                 type: 0
                 effect: 1
@@ -2970,7 +2970,7 @@ MonoBehaviour:
                 quote: "WHY SHOULD WE SPEND TIME AND MONEY ON TEACHING PEOPLE WHO
                   CAN\u2019T EVEN UNDERSTAND US!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 1
                 effect: 0
@@ -2994,7 +2994,7 @@ MonoBehaviour:
                 quote: "WE ARE PROUD, SELF SUPPORTING EMRICANS AND WE DON\u2019T NEED
                   OUTSIDERS TO COME HERE AND WASTE OUR TIME AND RESOURCES!"
                 animation: 3
-                voiceClip: 0
+                voiceClip: 7
                 actor: 1
                 type: 2
                 effect: 1
@@ -3019,7 +3019,7 @@ MonoBehaviour:
                   manpower is worth the extra responsibility for our english teachers.
                   Overreaction much?"
                 animation: 0
-                voiceClip: 0
+                voiceClip: 5
                 actor: 0
                 type: 0
                 effect: 0
@@ -3029,9 +3029,9 @@ MonoBehaviour:
                 repChange: -2
               dumbQuote:
                 quote: I'm pretty sure that most english teachers won't mind the extra
-                  responibility. You don't have to overreact...
+                  responsibility. You don't have to overreact...
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -3044,7 +3044,7 @@ MonoBehaviour:
                 quote: "Well I\u2019D dare say that this plan of yours will fail spectacularly
                   at the first lecture."
                 animation: 1
-                voiceClip: 0
+                voiceClip: 3
                 actor: 1
                 type: 0
                 effect: 0
@@ -3055,7 +3055,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: But that plan WILL NOT WORK! I JUST KNOW IT!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -3068,7 +3068,7 @@ MonoBehaviour:
                 quote: EMRICA NEEDS ITS INDEPENDENCE! WE SHOULD NOT RELY ON ANOTHER
                   COUNTRY TO LEND US ITS MANPOWER!
                 animation: 3
-                voiceClip: 0
+                voiceClip: 7
                 actor: 1
                 type: 2
                 effect: 1
@@ -3092,7 +3092,7 @@ MonoBehaviour:
                 quote: "I only said that we should use all resources we\u2019ve been
                   given."
                 animation: 2
-                voiceClip: 0
+                voiceClip: 6
                 actor: 0
                 type: 0
                 effect: 0
@@ -3116,7 +3116,7 @@ MonoBehaviour:
                 quote: "And I only said that it\u2019ll do nothing but lose us money
                   and time!"
                 animation: 0
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -3140,7 +3140,7 @@ MonoBehaviour:
                 quote: Thank you gentlemen, you've made your opinions very clear,
                   but we are out of time.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 2
                 type: 0
                 effect: 0
@@ -3164,7 +3164,7 @@ MonoBehaviour:
                 quote: If the press has any questions for either party, they'll be
                   available on their way out.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 2
                 type: 0
                 effect: 0
@@ -3187,7 +3187,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: This debate is over.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 2
                 type: 0
                 effect: 0
@@ -3796,7 +3796,7 @@ MonoBehaviour:
                 repChange: -2
               dumbQuote:
                 quote: I'm pretty sure that most english teachers won't mind the extra
-                  responibility. You don't have to overreact...
+                  responsibility. You don't have to overreact...
                 animation: 0
                 voiceClip: 0
                 actor: 0
@@ -4095,7 +4095,7 @@ MonoBehaviour:
             repChange: -3
           dumbQuote:
             quote: Or we could just build more houses, creating more jobs that way.
-              We want our economy to improve not to be isolated.
+              We want our economy to improve, not to be isolated.
             animation: 2
             voiceClip: 0
             actor: 0
@@ -4179,7 +4179,7 @@ MonoBehaviour:
                 actor: 0
                 type: 0
                 effect: 1
-                yourSanChange: -4
+                yourSanChange: -3
                 yourRepChange: 0
                 sanChange: -2
                 repChange: -3
@@ -4193,7 +4193,7 @@ MonoBehaviour:
                 actor: 1
                 type: 0
                 effect: 0
-                yourSanChange: -3
+                yourSanChange: -2
                 yourRepChange: -1
                 sanChange: 3
                 repChange: 1
@@ -4205,7 +4205,7 @@ MonoBehaviour:
                 actor: 1
                 type: 0
                 effect: 0
-                yourSanChange: -3
+                yourSanChange: -2
                 yourRepChange: 0
                 sanChange: 1
                 repChange: -1
@@ -4230,7 +4230,7 @@ MonoBehaviour:
                 actor: 1
                 type: 0
                 effect: 0
-                yourSanChange: -3
+                yourSanChange: -2
                 yourRepChange: -1
                 sanChange: 1
                 repChange: 1
@@ -4243,7 +4243,7 @@ MonoBehaviour:
                 actor: 1
                 type: 0
                 effect: 1
-                yourSanChange: -4
+                yourSanChange: -3
                 yourRepChange: -2
                 sanChange: 2
                 repChange: -3
@@ -4309,7 +4309,7 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 33
             - smartQuote:
-                quote: So, do you get how thing work now, Commoner?
+                quote: So, do you get how things work now, Commoner?
                 animation: 0
                 voiceClip: 0
                 actor: 1
@@ -8596,7 +8596,608 @@ MonoBehaviour:
         - name: Just how bad is the average beggar really?
           accessLevel: 0
           Path:
-            Phrases: []
+            Phrases:
+            - smartQuote:
+                quote: "You referred to the unemployed, in general, as shaggy drug
+                  addicts that can\u2019t be trusted to perform work, and that's simply
+                  not true."
+                animation: 1
+                voiceClip: 5
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 2
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: "You referred to the unemployed immigrants as shaggy drug addicts
+                  that can\u2019t be trusted to perform work. I don\u2019t think that\u2019s
+                  necessarily true."
+                animation: 1
+                voiceClip: 5
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 1
+                sanChange: -2
+                repChange: -3
+              sanityLimit: 50
+            - smartQuote:
+                quote: And what rock have you been living under? Beggars are everywhere
+                  and I've yet to see one with anything that resemble good health.
+                animation: 0
+                voiceClip: 1
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -1
+                sanChange: 1
+                repChange: 1
+              dumbQuote:
+                quote: "And what rock have you been living under? You can see the
+                  beggars everywhere you go and none of them look like they\u2019re
+                  at the top of their health."
+                animation: 1
+                voiceClip: 1
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: -1
+                sanChange: 1
+                repChange: 0
+              sanityLimit: 50
+            - smartQuote:
+                quote: There is a huge difference between unemployed and homeless,
+                  Datbouje.
+                animation: 2
+                voiceClip: 5
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 0
+                sanChange: -1
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: If you may recall the start of this debate, i said that the
+                  jobless are very eager to be employed. That still stands.
+                animation: 0
+                voiceClip: 3
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 2
+                sanChange: -2
+                repChange: 0
+              dumbQuote:
+                quote: Also, if you were to ask a beggar if they'd want a job, they
+                  would. Any job.
+                animation: 0
+                voiceClip: 3
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 1
+                sanChange: -1
+                repChange: 0
+              sanityLimit: 60
+            - smartQuote:
+                quote: All we need is to give our complementary programs slight boost
+                  and those 0.5% will disappear.
+                animation: 0
+                voiceClip: 9
+                actor: 0
+                type: 2
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: I'll believe that when I see it.
+                animation: 1
+                voiceClip: 1
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: 0
+                sanChange: -1
+                repChange: -2
+              dumbQuote:
+                quote: A bunch of baloney! I'll believe it when I see it!
+                animation: 1
+                voiceClip: 3
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -3
+                yourRepChange: 0
+                sanChange: -1
+                repChange: -3
+              sanityLimit: 50
+            - smartQuote:
+                quote: Do you read  "Emrica Daily"?
+                animation: 2
+                voiceClip: 5
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: '......'
+                animation: 4
+                voiceClip: 13
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Ok, maybe there's some sort of basis for your arguments. But
+                  the same goes for flat earth theory!
+                animation: 1
+                voiceClip: 2
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: -1
+                yourRepChange: 0
+                sanChange: 0
+                repChange: -3
+              dumbQuote:
+                quote: OK FINE! Maybe there's SOME sort of basis for your points!
+                animation: 1
+                voiceClip: 2
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 2
+                sanChange: -3
+                repChange: -3
+              sanityLimit: 50
+            - smartQuote:
+                quote: 'The fact remains: We need to get rid of the trash, to get
+                  clean. Common sense, Commoner. Use it.'
+                animation: 3
+                voiceClip: 5
+                actor: 1
+                type: 2
+                effect: 0
+                yourSanChange: 3
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: We need to get rid of the trash to get clean! Common sense!
+                animation: 3
+                voiceClip: 5
+                actor: 1
+                type: 2
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 50
+            - smartQuote:
+                quote: "There is a thing called recycling you know, and sweeping \u201Ctrash\u201D
+                  under the rug doesn\u2019t get rid of the problem."
+                animation: 2
+                voiceClip: 9
+                actor: 0
+                type: 2
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "What we need isn\u2019t need fewer people to take care of,
+                  it's better care for everyone involved."
+                animation: 0
+                voiceClip: 3
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 2
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: We need more available jobs to compliment our available citizens.
+                  Common sense.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 3
+                yourRepChange: 3
+                sanChange: -3
+                repChange: -1
+              dumbQuote:
+                quote: We need more available jobs. Because if jobs are available
+                  people will be employed.
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 2
+                yourRepChange: 3
+                sanChange: -2
+                repChange: 0
+              sanityLimit: 50
+            - smartQuote:
+                quote: Ah yes, employ the unqualified just cause they want to!
+                animation: 3
+                voiceClip: 8
+                actor: 1
+                type: 1
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: News flash kid! Not everyone gets straight A:s!
+                animation: 1
+                voiceClip: 6
+                actor: 1
+                type: 0
+                effect: 1
+                yourSanChange: -2
+                yourRepChange: -1
+                sanChange: 1
+                repChange: 1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: "We need actual workers to replace the filth left to us by
+                  Oscania! Not give our jobs just \u2018cause they don\u2019t already
+                  have \u2018em, you pompous portmanteau!"
+                animation: 1
+                voiceClip: 2
+                actor: 1
+                type: 1
+                effect: 0
+                yourSanChange: 3
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Wait what?
+                animation: 2
+                voiceClip: 8
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: -2
+                yourRepChange: -1
+                sanChange: 2
+                repChange: 1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: A job is a gift given to someone who have proven themselves
+                  useful and I will NOT allow these INFINITELY VALUABLE PROMOTIONS
+                  to be tossed around like candy on halloween!
+                animation: 5
+                voiceClip: 11
+                actor: 1
+                type: 2
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 1
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: A VOTE FOR ME IS A VOTE FOR PROPERLY RESPONSIBLE WORKERS!
+                animation: 3
+                voiceClip: 7
+                actor: 0
+                type: 2
+                effect: 1
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 3
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: But why get rid of endless potential like that?
+                animation: 1
+                voiceClip: 6
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 1
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: If we change our budget to prioritize education, especially
+                  for these newcomers, MORE businesses will open, allowing the unemployed
+                  to, well, go and get employed!
+                animation: 0
+                voiceClip: 9
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 1
+                yourRepChange: 2
+                sanChange: -2
+                repChange: -1
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Just look at what Skandea is doing! The strategy works perfectly!
+                animation: 1
+                voiceClip: 4
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 2
+                sanChange: -2
+                repChange: -2
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Gentlemen, I am sorry to interrupt but we have run out of time,
+                  and I do believe that both of you have told us what you wanted to
+                  express.
+                animation: 0
+                voiceClip: 2
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: Stay tuned for the press conference with president Basileus
+                  in an hour.
+                animation: 0
+                voiceClip: 3
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 2
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
+            - smartQuote:
+                quote: But until then... This debate is over.
+                animation: 0
+                voiceClip: 0
+                actor: 2
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              dumbQuote:
+                quote: 
+                animation: 0
+                voiceClip: 2
+                actor: 0
+                type: 0
+                effect: 0
+                yourSanChange: 0
+                yourRepChange: 0
+                sanChange: 0
+                repChange: 0
+              sanityLimit: 0
             Responses: []
         - name: Won't shutting people out just reduce manpower?
           accessLevel: 0
@@ -9361,7 +9962,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1285642808}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -2, z: 0}
+  m_LocalPosition: {x: -1.5, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -9409,11 +10010,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2e5505124529e2a42859d3ea7a05d406, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4e376118a6a9e854187da882cf9452e0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   Priority: 128
@@ -9567,12 +10168,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1373938334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!114 &1373938336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9586,9 +10187,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animations:
   - sprites:
-    - {fileID: 21300000, guid: 04f5aa9418413a6479b44bb49dd21031, type: 3}
-    - {fileID: 21300000, guid: 9717bc99c98e8b5468b187f0fdb3a052, type: 3}
-    fps: 15
+    - {fileID: 21300002, guid: 6f72dede374743742b4aa8e52df18ce8, type: 3}
+    - {fileID: 21300004, guid: 6f72dede374743742b4aa8e52df18ce8, type: 3}
+    fps: 7
     shouldLoop: 0
   chairSounds:
   - {fileID: 8300000, guid: d2cdb20d69aa3544a986b4cc5e9a5765, type: 3}
@@ -9625,7 +10226,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300004, guid: 6f72dede374743742b4aa8e52df18ce8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9958,12 +10559,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1623833109}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: -2, z: 0}
+  m_LocalPosition: {x: 1.5, y: -2, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!114 &1623833111
 MonoBehaviour:
   m_ObjectHideFlags: 0
