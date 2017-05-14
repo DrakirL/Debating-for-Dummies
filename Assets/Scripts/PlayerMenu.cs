@@ -7,13 +7,13 @@ public class PlayerMenu : MonoBehaviour
     public void ResearchOpposition()
     {
         PlayerPrefs.SetInt("SubjectOrOpposition", 1);
-        Begin();
+        SceneManager.LoadScene("Debate");
     }
 
     public void ResearchSubject()
     {
         PlayerPrefs.SetInt("SubjectOrOpposition", 0);
-		Begin();
+        SceneManager.LoadScene("Debate");
     }
 
     public void HundredPercent()
@@ -34,7 +34,7 @@ public class PlayerMenu : MonoBehaviour
 
     public void Begin()
     {
-        SceneManager.LoadScene("Debate");
+        SceneManager.LoadScene("Research");
     }
 
     public void Reset()

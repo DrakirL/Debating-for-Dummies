@@ -1697,7 +1697,7 @@ MonoBehaviour:
       sanityLimit: 50
     - smartQuote:
         quote: The statistics show that most homeless are just as capable of working
-          hard as the economicly privilaged, and they are most definitely eager to.
+          hard as the economicly privileged, and they are most definitely eager to.
         animation: 0
         voiceClip: 9
         actor: 0
@@ -3216,7 +3216,7 @@ MonoBehaviour:
                 quote: Oh there are plenty of ways jobs can be created without throwing
                   people out. I imagine even Datbouje knows that.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 9
                 actor: 0
                 type: 1
                 effect: 0
@@ -3228,7 +3228,7 @@ MonoBehaviour:
                 quote: "There are plenty of ways jobs can be created, but i doubt
                   Pep\xE9 knows how they work."
                 animation: 1
-                voiceClip: 0
+                voiceClip: 4
                 actor: 0
                 type: 1
                 effect: 0
@@ -3239,9 +3239,9 @@ MonoBehaviour:
               sanityLimit: 22
             - smartQuote:
                 quote: I'll have you know that I'm rich. I can get my way around the
-                  market
+                  market.
                 animation: 1
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -3264,7 +3264,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: And you've gone bankrupt how many times? Five?
                 animation: 2
-                voiceClip: 0
+                voiceClip: 5
                 actor: 0
                 type: 1
                 effect: 0
@@ -3285,9 +3285,9 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 0
             - smartQuote:
-                quote: ONLY THREE! You've been a reporter, get your celebrities staight!
+                quote: ONLY THREE! You've been a reporter, get your celebrities straight!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 1
@@ -3299,7 +3299,7 @@ MonoBehaviour:
                 quote: THREE! The last two don't count. As a reporter, you should
                   know these things!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 1
@@ -3312,7 +3312,7 @@ MonoBehaviour:
                 quote: Emrica, is this the person you'd trust could improve our economic
                   situation? The same person who went bankrupt three to five times?
                 animation: 2
-                voiceClip: 0
+                voiceClip: 4
                 actor: 0
                 type: 1
                 effect: 0
@@ -3325,7 +3325,7 @@ MonoBehaviour:
                   of improving our economic situation? The same person who went bankrupt
                   three times? Or five depending on how you count.
                 animation: 2
-                voiceClip: 0
+                voiceClip: 4
                 actor: 0
                 type: 1
                 effect: 0
@@ -3335,11 +3335,11 @@ MonoBehaviour:
                 repChange: 5
               sanityLimit: 45
             - smartQuote:
-                quote: You think they're instead gonna pick the facecovering crook
-                  who dodges their own question? You claimed that there are plenty
-                  of ways to make jobs, name one.
+                quote: You think they're gonna pick the facecovering crook who dodges
+                  their own question instead? You claimed that there are plenty of
+                  ways to make jobs, name one.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 8
                 actor: 1
                 type: 1
                 effect: 0
@@ -3352,7 +3352,7 @@ MonoBehaviour:
                   to dodge your own question! You claimed that there are plenty of
                   ways, pick one!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 2
                 actor: 1
                 type: 1
                 effect: 1
@@ -3364,7 +3364,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: Uhm... Well... We could, cut the taxes!
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 0
                 type: 0
                 effect: 0
@@ -3375,7 +3375,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: Uhm... Well... We could cut the taxes, maybe?
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 0
                 type: 0
                 effect: 0
@@ -3387,7 +3387,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: A SURPRISINGLY good answer!
                 animation: 3
-                voiceClip: 0
+                voiceClip: 7
                 actor: 1
                 type: 2
                 effect: 1
@@ -3411,7 +3411,7 @@ MonoBehaviour:
                 quote: "But while increasing the wage earned is great and all, it
                   won\u2019t create new jobs OR make those job thieves any more qualified."
                 animation: 0
-                voiceClip: 0
+                voiceClip: 9
                 actor: 1
                 type: 0
                 effect: 0
@@ -3436,7 +3436,7 @@ MonoBehaviour:
                   it has no positive effect on our economy? And I'm supposed to be
                   the crook...
                 animation: 1
-                voiceClip: 0
+                voiceClip: 4
                 actor: 0
                 type: 0
                 effect: 0
@@ -3445,10 +3445,10 @@ MonoBehaviour:
                 sanChange: -4
                 repChange: -4
               dumbQuote:
-                quote: Are you really claiming that a society with that rewards workers
-                  more won't attract workers?
+                quote: Are you really claiming a society that rewards workers more
+                  won't attract more workers?
                 animation: 2
-                voiceClip: 0
+                voiceClip: 5
                 actor: 0
                 type: 0
                 effect: 0
@@ -3485,7 +3485,7 @@ MonoBehaviour:
                 quote: W-well yes... But that still won't make the immigrants any
                   more qualified.
                 animation: 2
-                voiceClip: 0
+                voiceClip: 5
                 actor: 1
                 type: 0
                 effect: 0
@@ -3497,7 +3497,7 @@ MonoBehaviour:
                 quote: W-well... But, uh... The immigrants won't get better because
                   of that!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 5
                 actor: 1
                 type: 0
                 effect: 0
@@ -3510,7 +3510,7 @@ MonoBehaviour:
                 quote: You seem to think that their lack of education is a big problem.
                   Is there anything preventing us from solving it?
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -3522,7 +3522,7 @@ MonoBehaviour:
                 quote: "If you truly think that the immigrants are unqualified for
                   our jobs, why don\u2019t we simply qualify them?"
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -3535,7 +3535,7 @@ MonoBehaviour:
                 quote: The way to a better job market is dependant on how well educated
                   the population is. That includes the foreignborn.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -3547,7 +3547,7 @@ MonoBehaviour:
                 quote: To improve our job situation we should focus on making our
                   education system better and available to EVERYONE who lives here.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -3584,7 +3584,7 @@ MonoBehaviour:
                 quote: Except that there are way too many uneducated immigrants for
                   us to handle!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 3
                 actor: 1
                 type: 0
                 effect: 0
@@ -3595,7 +3595,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: "Except that we\u2019d still be DROWNING in uneducated Oscanians!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 4
                 actor: 1
                 type: 0
                 effect: 0
@@ -3608,7 +3608,7 @@ MonoBehaviour:
                 quote: "We shouldn't have to pay the job thieves\u2019 school fee
                   just because they happen to be here at the moment."
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -3620,7 +3620,7 @@ MonoBehaviour:
                 quote: "We don\u2019t need to pay the job thieves\u2019 school fee
                   just because they happen to be here at the moment."
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -3634,7 +3634,7 @@ MonoBehaviour:
                   manpower, when we can keep them out and focus on our own, guaranteed
                   manpower.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -3646,7 +3646,7 @@ MonoBehaviour:
                 quote: There is no reason for us to spend money on potential manpower
                   when have our own.
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -3659,7 +3659,7 @@ MonoBehaviour:
                 quote: What makes you think that they are worse students because were
                   born elsewhere?
                 animation: 0
-                voiceClip: 0
+                voiceClip: 6
                 actor: 0
                 type: 0
                 effect: 0
@@ -3671,7 +3671,7 @@ MonoBehaviour:
                 quote: "The fact that they\u2019ve immigrated here doesn\u2019t make
                   them worse students than the ones born here in Emrica."
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 0
                 type: 0
                 effect: 0
@@ -3684,8 +3684,8 @@ MonoBehaviour:
                 quote: "Doesn\u2019t an unlimited supply of well educated immigrants
                   wanting to work sound like a pretty good thing to have for our economy
                   AND our education?"
-                animation: 0
-                voiceClip: 0
+                animation: 2
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -3697,7 +3697,7 @@ MonoBehaviour:
                 quote: An unlimited supply of manpower willing to work and get educated
                   sounds pretty good to me.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -3711,7 +3711,7 @@ MonoBehaviour:
                   a refugee. How the hell could we possibly teach THEM ALL to become
                   professional workers!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -3724,7 +3724,7 @@ MonoBehaviour:
                   understand a lick of english! It\u2019s painful enough to communicate,
                   so how the hell are we going to TEACH them to a higher degree?!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 2
                 actor: 1
                 type: 0
                 effect: 1
@@ -3737,7 +3737,7 @@ MonoBehaviour:
                 quote: "WHY SHOULD WE SPEND TIME AND MONEY ON TEACHING PEOPLE WHO
                   CAN\u2019T EVEN UNDERSTAND US!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 1
                 effect: 0
@@ -3761,7 +3761,7 @@ MonoBehaviour:
                 quote: "WE ARE PROUD, SELF SUPPORTING EMRICANS AND WE DON\u2019T NEED
                   OUTSIDERS TO COME HERE AND WASTE OUR TIME AND RESOURCES!"
                 animation: 3
-                voiceClip: 0
+                voiceClip: 7
                 actor: 1
                 type: 2
                 effect: 1
@@ -3786,7 +3786,7 @@ MonoBehaviour:
                   manpower is worth the extra responsibility for our english teachers.
                   Overreaction much?"
                 animation: 0
-                voiceClip: 0
+                voiceClip: 5
                 actor: 0
                 type: 0
                 effect: 0
@@ -3798,7 +3798,7 @@ MonoBehaviour:
                 quote: I'm pretty sure that most english teachers won't mind the extra
                   responsibility. You don't have to overreact...
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 0
                 type: 0
                 effect: 0
@@ -3811,7 +3811,7 @@ MonoBehaviour:
                 quote: "Well I\u2019D dare say that this plan of yours will fail spectacularly
                   at the first lecture."
                 animation: 1
-                voiceClip: 0
+                voiceClip: 3
                 actor: 1
                 type: 0
                 effect: 0
@@ -3822,7 +3822,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: But that plan WILL NOT WORK! I JUST KNOW IT!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -3835,7 +3835,7 @@ MonoBehaviour:
                 quote: EMRICA NEEDS ITS INDEPENDENCE! WE SHOULD NOT RELY ON ANOTHER
                   COUNTRY TO LEND US ITS MANPOWER!
                 animation: 3
-                voiceClip: 0
+                voiceClip: 7
                 actor: 1
                 type: 2
                 effect: 1
@@ -3859,7 +3859,7 @@ MonoBehaviour:
                 quote: "I only said that we should use all resources we\u2019ve been
                   given."
                 animation: 2
-                voiceClip: 0
+                voiceClip: 6
                 actor: 0
                 type: 0
                 effect: 0
@@ -3883,7 +3883,7 @@ MonoBehaviour:
                 quote: "And I only said that it\u2019ll do nothing but lose us money
                   and time!"
                 animation: 0
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 0
@@ -3907,7 +3907,7 @@ MonoBehaviour:
                 quote: THANK YOU, gentlemen, you've made your opinions very clear,
                   but we are out of time.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 2
                 type: 0
                 effect: 0
@@ -3931,7 +3931,7 @@ MonoBehaviour:
                 quote: If the press has any questions for either party, they'll be
                   available on their way out.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 2
                 type: 0
                 effect: 0
@@ -3954,7 +3954,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: But as far as this debate goes, it is over.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 2
                 type: 0
                 effect: 0
@@ -4131,8 +4131,8 @@ MonoBehaviour:
             repChange: 0
           sanityLimit: 0
         - smartQuote:
-            quote: LET OSCANIA TAKE OF THEIR OWN PEOPLE, AND LET EMRICA RETURN TO
-              ITS FORMER GLORY DAYS!
+            quote: LET OSCANIA TAKE CARE OF THEIR OWN PEOPLE, AND LET EMRICA RETURN
+              TO ITS FORMER GLORY DAYS!
             animation: 3
             voiceClip: 0
             actor: 1
@@ -4163,7 +4163,7 @@ MonoBehaviour:
                 quote: '"Dumb outsiders"? Really? You''re trying to make the point
                   that the immigrants as a whole are less intellectual?'
                 animation: 2
-                voiceClip: 0
+                voiceClip: 5
                 actor: 0
                 type: 0
                 effect: 0
@@ -4175,7 +4175,7 @@ MonoBehaviour:
                 quote: Dumb outsiders!? You don't think intellegent people are born
                   outside our borders?!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 4
                 actor: 0
                 type: 0
                 effect: 1
@@ -4189,7 +4189,7 @@ MonoBehaviour:
                   programs and shouldn't get any jobs where those are needed, meaning
                   ALL OF THEM!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -4201,7 +4201,7 @@ MonoBehaviour:
                 quote: "It doesn\u2019t matter how smart they are, they haven\u2019t
                   gone through any of our programs!"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 0
                 effect: 0
@@ -4214,7 +4214,7 @@ MonoBehaviour:
                 quote: If they want to take our jobs instead of us, they need to deserve
                   our jobs more than we do!
                 animation: 3
-                voiceClip: 0
+                voiceClip: 2
                 actor: 1
                 type: 0
                 effect: 0
@@ -4226,7 +4226,7 @@ MonoBehaviour:
                 quote: If they want our jobs, they need to deserve our jobs more than
                   we do!
                 animation: 3
-                voiceClip: 0
+                voiceClip: 2
                 actor: 1
                 type: 0
                 effect: 0
@@ -4239,7 +4239,7 @@ MonoBehaviour:
                 quote: Who here wants to have their position taken over by some uneducated
                   street beggar and drug addict?!
                 animation: 3
-                voiceClip: 0
+                voiceClip: 6
                 actor: 1
                 type: 0
                 effect: 1
@@ -4262,7 +4262,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: THAT'S RIGHT! KEEP THE THIEVES OUT TO KEEP THE PROPERTY!
                 animation: 1
-                voiceClip: 0
+                voiceClip: 1
                 actor: 1
                 type: 2
                 effect: 1
@@ -4286,7 +4286,7 @@ MonoBehaviour:
                 quote: If there are jobs left, we Emricans can fill them ourselves.
                   Flooding the streets with more homeless people WILL. NOT. HELP!
                 animation: 3
-                voiceClip: 0
+                voiceClip: 8
                 actor: 1
                 type: 2
                 effect: 0
@@ -4299,7 +4299,7 @@ MonoBehaviour:
                   Who'd think that flooding the streets with more homeless people
                   helps!
                 animation: 3
-                voiceClip: 0
+                voiceClip: 8
                 actor: 1
                 type: 1
                 effect: 0
@@ -4311,7 +4311,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: So, do you get how things work now, Commoner?
                 animation: 0
-                voiceClip: 0
+                voiceClip: 9
                 actor: 1
                 type: 1
                 effect: 0
@@ -4336,7 +4336,7 @@ MonoBehaviour:
                   increases poverty. But that doesn't matter as much as the question
                   you ignored.
                 animation: 1
-                voiceClip: 0
+                voiceClip: 4
                 actor: 0
                 type: 0
                 effect: 0
@@ -4360,7 +4360,7 @@ MonoBehaviour:
                 quote: Wasn't "dumb outsiders" enough? You had to call them "uneducated
                   street beggars and drug addicts" as well?
                 animation: 1
-                voiceClip: 0
+                voiceClip: 5
                 actor: 0
                 type: 1
                 effect: 0
@@ -4384,7 +4384,7 @@ MonoBehaviour:
                 quote: "You aren\u2019t claiming that they are uneducated, BECAUSE
                   they are immigrants, are you?"
                 animation: 1
-                voiceClip: 0
+                voiceClip: 4
                 actor: 0
                 type: 0
                 effect: 0
@@ -4408,7 +4408,7 @@ MonoBehaviour:
                 quote: I LOVE OSCANIANS, and nothing you say will change that! But
                   what you say won't magicly make them educated either.
                 animation: 3
-                voiceClip: 0
+                voiceClip: 7
                 actor: 1
                 type: 0
                 effect: 1
@@ -4420,7 +4420,7 @@ MonoBehaviour:
                 quote: I LOVE OSCANIANS, and nothing you say will change that! Much
                   like nothing you say will make them smarter.
                 animation: 3
-                voiceClip: 0
+                voiceClip: 7
                 actor: 1
                 type: 0
                 effect: 1
@@ -4432,7 +4432,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: See? That's exactely what I'm talking abou-
                 animation: 2
-                voiceClip: 0
+                voiceClip: 6
                 actor: 0
                 type: 0
                 effect: 0
@@ -4443,7 +4443,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: Wait what?
                 animation: 2
-                voiceClip: 0
+                voiceClip: 7
                 actor: 0
                 type: 0
                 effect: 0
@@ -4455,7 +4455,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: SEE HOW THAT LEFT HIM SPEECHLESS!
                 animation: 3
-                voiceClip: 0
+                voiceClip: 7
                 actor: 1
                 type: 0
                 effect: 1
@@ -4466,7 +4466,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: THAT LEFT YOU SPEECHLESS, HUH!?
                 animation: 0
-                voiceClip: 0
+                voiceClip: 7
                 actor: 0
                 type: 0
                 effect: 0
@@ -4479,7 +4479,7 @@ MonoBehaviour:
                 quote: I would like to return to the subject before our airing time
                   runs out, if you two don't mind...
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 2
                 type: 0
                 effect: 0
@@ -4503,7 +4503,7 @@ MonoBehaviour:
                 quote: Datbouje, we want to reduce unemployment. How would you try
                   to do that? Summarize briefly.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 2
                 type: 0
                 effect: 0
@@ -4527,7 +4527,7 @@ MonoBehaviour:
                 quote: 'In layman terms: I''ll keep the problem from coming here in
                   the first place!'
                 animation: 3
-                voiceClip: 0
+                voiceClip: 5
                 actor: 1
                 type: 0
                 effect: 0
@@ -4539,7 +4539,7 @@ MonoBehaviour:
                 quote: 'Put simply: I will make sure the problem never enters Emrica
                   in the first place!'
                 animation: 3
-                voiceClip: 0
+                voiceClip: 5
                 actor: 1
                 type: 0
                 effect: 0
@@ -4551,7 +4551,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: How you ask? WITH MY BARE HANDS IF I HAVE TO!
                 animation: 3
-                voiceClip: 0
+                voiceClip: 7
                 actor: 1
                 type: 0
                 effect: 0
@@ -4563,7 +4563,7 @@ MonoBehaviour:
                 quote: We could build a wall or something, I haven't thought that
                   far...
                 animation: 2
-                voiceClip: 0
+                voiceClip: 4
                 actor: 1
                 type: 0
                 effect: 0
@@ -4575,7 +4575,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: '...Plain and simple...'
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 2
                 type: 0
                 effect: 0
@@ -4622,7 +4622,7 @@ MonoBehaviour:
                 quote: We should shift our focus towards adding extra jobs to the
                   market so everyone gets a share.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -4633,7 +4633,7 @@ MonoBehaviour:
               dumbQuote:
                 quote: We should focus on adding more jobs to the market.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 3
                 actor: 0
                 type: 0
                 effect: 0
@@ -4669,7 +4669,7 @@ MonoBehaviour:
             - smartQuote:
                 quote: Sounds effective...
                 animation: 0
-                voiceClip: 0
+                voiceClip: 1
                 actor: 2
                 type: 0
                 effect: 0
@@ -4693,7 +4693,7 @@ MonoBehaviour:
                 quote: Sadly, our time is up, if the press has any questions, they
                   can meet the candidates on their way out.
                 animation: 0
-                voiceClip: 0
+                voiceClip: 2
                 actor: 2
                 type: 0
                 effect: 0
@@ -5100,7 +5100,7 @@ MonoBehaviour:
               sanityLimit: 35
             - smartQuote:
                 quote: But that doesn't mean that we can just get everything for them.
-                  Giving away costs money.
+                  Giving things away costs money.
                 animation: 0
                 voiceClip: 0
                 actor: 1
@@ -5806,7 +5806,7 @@ MonoBehaviour:
             repChange: 0
           sanityLimit: 45
         - smartQuote:
-            quote: I'm just pointing our your long history of anti-Oscanian remarks
+            quote: I'm just pointing our your long history of anti-Oscanian remarks.
             animation: 0
             voiceClip: 5
             actor: 0
@@ -6023,8 +6023,8 @@ MonoBehaviour:
             Phrases:
             - smartQuote:
                 quote: This country is seriously considering anti-Oscanian propaganda,
-                  from a men who went bankrupt multiple times, as the a towards economic
-                  growth.
+                  from a man who went bankrupt multiple times, as the way towards
+                  economic growth.
                 animation: 1
                 voiceClip: 4
                 actor: 0
@@ -6093,7 +6093,7 @@ MonoBehaviour:
                 repChange: -1
               sanityLimit: 50
             - smartQuote:
-                quote: Your standars are actually low enough for you to throw around
+                quote: Your standards are actually low enough for you to throw around
                   accusations like that!?
                 animation: 1
                 voiceClip: 11
@@ -6235,7 +6235,7 @@ MonoBehaviour:
                 repChange: -1
               sanityLimit: 50
             - smartQuote:
-                quote: Of course it will, it's not rocket scinece. Fewer beggars mean
+                quote: Of course it will, it's not rocket surgery. Fewer beggars mean
                   richer average.
                 animation: 0
                 voiceClip: 8
@@ -6355,7 +6355,7 @@ MonoBehaviour:
                 quote: Riiiiiiiiiight?
                 animation: 2
                 voiceClip: 5
-                actor: 1
+                actor: 0
                 type: 0
                 effect: 0
                 yourSanChange: 2
@@ -6517,7 +6517,7 @@ MonoBehaviour:
                 quote: That's... Also Classified...
                 animation: 2
                 voiceClip: 4
-                actor: 0
+                actor: 2
                 type: 0
                 effect: 0
                 yourSanChange: -2
@@ -6802,7 +6802,7 @@ MonoBehaviour:
                 repChange: -1
               sanityLimit: 60
             - smartQuote:
-                quote: Let's return to the subject, shall we? We need more jobs
+                quote: Let's return to the subject, shall we? We need more jobs.
                 animation: 0
                 voiceClip: 0
                 actor: 0
@@ -6971,7 +6971,7 @@ MonoBehaviour:
                   change it for the better!"
                 animation: 3
                 voiceClip: 8
-                actor: 0
+                actor: 1
                 type: 2
                 effect: 0
                 yourSanChange: 0
@@ -6982,7 +6982,7 @@ MonoBehaviour:
                 quote: 
                 animation: 0
                 voiceClip: 0
-                actor: 0
+                actor: 1
                 type: 0
                 effect: 0
                 yourSanChange: 0
@@ -7255,8 +7255,8 @@ MonoBehaviour:
             - smartQuote:
                 quote: You are a heartless moron! We need to support the people of
                   our country, not the piece of land itself!
-                animation: 0
-                voiceClip: 0
+                animation: 1
+                voiceClip: 4
                 actor: 0
                 type: 1
                 effect: 0
@@ -8023,7 +8023,7 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 0
             - smartQuote:
-                quote: You are referring to a source thant doesn't know the differance
+                quote: You are referring to a source that doesn't know the differance
                   between "the immigrants are homeless" and "the homeless are immigrants"!
                 animation: 1
                 voiceClip: 6
@@ -8101,7 +8101,7 @@ MonoBehaviour:
                 quote: "You claimed, in the same sentence, that most immigrants don\u2019t
                   get employment and that you have a good reason to. Why?"
                 animation: 1
-                voiceClip: 10
+                voiceClip: 4
                 actor: 0
                 type: 0
                 effect: 1
@@ -8675,7 +8675,7 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 0
             - smartQuote:
-                quote: If you may recall the start of this debate, i said that the
+                quote: If you may recall the start of this debate, I said that the
                   jobless are very eager to be employed. That still stands.
                 animation: 0
                 voiceClip: 3
@@ -8700,8 +8700,8 @@ MonoBehaviour:
                 repChange: 0
               sanityLimit: 60
             - smartQuote:
-                quote: All we need is to give our complementary programs slight boost
-                  and those 0.5% will disappear.
+                quote: All we need is to give our complementary programs a slight
+                  boost and those 0.5% will disappear.
                 animation: 0
                 voiceClip: 9
                 actor: 0
@@ -9036,7 +9036,7 @@ MonoBehaviour:
                 quote: A VOTE FOR ME IS A VOTE FOR PROPERLY RESPONSIBLE WORKERS!
                 animation: 3
                 voiceClip: 7
-                actor: 0
+                actor: 1
                 type: 2
                 effect: 1
                 yourSanChange: 0
@@ -9047,7 +9047,7 @@ MonoBehaviour:
                 quote: 
                 animation: 0
                 voiceClip: 0
-                actor: 0
+                actor: 1
                 type: 0
                 effect: 0
                 yourSanChange: 0
@@ -10631,7 +10631,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4e376118a6a9e854187da882cf9452e0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 49cc23a2cfb9a894da6bdae8fb5c69b2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

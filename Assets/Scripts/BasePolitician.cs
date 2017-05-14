@@ -317,7 +317,7 @@ public class BasePolitician : Animator
             else if (player.playerrep <= 0 || player.playersan <= 0)
             {
                 //enable player breakdown
-                speaker.pitch = 0.9f;
+                speaker.pitch = 0.8f;
                 ChooseDialogue(PlayerBreakdown);
             }
 
